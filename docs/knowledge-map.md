@@ -41,7 +41,7 @@
 - [动机与奖励](../skills/game-design-development/references/motivation-rewards.md)：奖励的实际作用、自定目标及满意结束。
 - [原型与失败成本](../skills/game-design-development/references/prototype-and-challenge.md)：保留待测变量，分开挑战与重试负担。
 
-方法的证据强度和继续研究的问题见 [研究深度与边界](research-depth.md)。
+方法的证据强度和继续研究的问题见 [研究深度与边界](research-depth.md)；在项目中实际使用后的结果、误判与修订见 [四项目实用回收](project-trials.md)。
 
 ## 作品案例学习
 

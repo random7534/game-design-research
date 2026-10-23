@@ -2,7 +2,7 @@
   "schema_version": 1,
   "reviewed_on": "2026-10-24",
   "status": "research_observations_not_personal_endorsements",
-  "counting_rule": "案例记录与通用来源25项分开计数；本地复核不增加公开一手文献数量。",
+  "counting_rule": "案例记录、项目实用反馈与通用文献分开计数；项目执行及重复复核不增加公开一手文献数量。",
   "cases": [
     {
       "id": "CASE-U01",
@@ -105,6 +105,83 @@
       "candidate_ids": [
         "C22"
       ]
+    },
+    {
+      "id": "CASE-T02",
+      "game": "原作内卡牌改造任务",
+      "version_scope": "2026-10-24本地隔离副本；局部原程序加载与操作观察。",
+      "evidence_types": [
+        "project_user_feedback",
+        "local_patch_review",
+        "executor_runtime_observation",
+        "runtime_log_review"
+      ],
+      "observations": "用户指出简化版本虽能出牌，却未满足原作内修改及完整体验的诉求；项目改回隔离原作副本，局部加载与首个计数变化已有实际观察。",
+      "limits": "计数变化来自执行者现场观察，独立复核未取得可重看的数值截图或事件日志；调试加牌与用户接管后的行为另记。满层、跨回合和存读档等未验收，不代表用户已认可品质。",
+      "candidate_ids": [
+        "C07",
+        "C09",
+        "C21"
+      ],
+      "reviewed_on": "2026-10-24",
+      "public_sources": [],
+      "public_verifiability": "原始代码、产物和运行记录仅在本地保留；本库公开匿名方法摘要，不分发未公开方案或原作数据，不能作为可独立重放的公开实验数据。"
+    },
+    {
+      "id": "CASE-S03",
+      "game": "原创短篇派遣原型",
+      "version_scope": "2026-10-24受查规则源快照与代理浏览器路径；有限一周流程。",
+      "evidence_types": [
+        "compiled_rule_tests",
+        "agent_browser_execution",
+        "local_source_review"
+      ],
+      "observations": "承诺占用未来指定角色行动，并影响后续资格；连续运行发现先完成中立事项再公开站队的顺序可兼得援助，保留组合并修正结算说明。空闲阶段的可选休整仍须经过到期和结束判断。",
+      "limits": "自动回归与代理浏览器操作不证明真人动机、历史题材吸引力、跨周成长或长期回访；实时生成、缓存与本地事件不可混计。",
+      "candidate_ids": [
+        "C09",
+        "C20"
+      ],
+      "reviewed_on": "2026-10-24",
+      "public_sources": [],
+      "public_verifiability": "原始代码、产物和运行记录仅在本地保留；本库公开匿名方法摘要，不分发未公开方案或原作数据，不能作为可独立重放的公开实验数据。"
+    },
+    {
+      "id": "CASE-P02",
+      "game": "Palworld / 幻兽帕鲁：生产有限模型",
+      "version_scope": "本地0.7.3.90464静态解析数据；2026-10-24冻结输入的有限模型复跑。",
+      "evidence_types": [
+        "local_static_analysis",
+        "frozen_input_model_execution",
+        "independent_process_rerun"
+      ],
+      "observations": "加工工作量不参与先行的设施等级拒绝条件；模型区分原料搬入、单份完成、产物领取与后续投入。独立复跑复现状态，并发现过一次输入指纹与旧记录不同步，后续以匹配快照核对。",
+      "limits": "配方初始许可、有效工人、放置和提交成功等由模型前提提供；未运行游戏或检验联机。对同一等级谓词重复断言不算多次修改原程序实验，工作量不能直接视为秒数。",
+      "candidate_ids": [
+        "C22"
+      ],
+      "reviewed_on": "2026-10-24",
+      "public_sources": [],
+      "public_verifiability": "原始代码、产物和运行记录仅在本地保留；本库公开匿名方法摘要，不分发未公开方案或原作数据，不能作为可独立重放的公开实验数据。"
+    },
+    {
+      "id": "CASE-U02",
+      "game": "原创三角色声音原型",
+      "version_scope": "2026-10-24两份90秒声音版本、同源对白与解码检查；含声道测量修订。",
+      "evidence_types": [
+        "generated_artifact_checks",
+        "independent_audio_decode",
+        "measurement_correction"
+      ],
+      "observations": "用同一批表演控制电话处理对照。独立检查发现默认单声道混合抬高测量峰值，撤回将异常直接归于压缩编码的解释；检查器改为分别报告交付声道与显式下混。",
+      "limits": "WAV通话外严格相等不能扩展为有损格式也逐采样相等；已测采样峰值，未测真峰值；没有人工听感、角色盲辨或完整案件验证。",
+      "candidate_ids": [
+        "C07",
+        "C18"
+      ],
+      "reviewed_on": "2026-10-24",
+      "public_sources": [],
+      "public_verifiability": "原始代码、产物和运行记录仅在本地保留；本库公开匿名方法摘要，不分发未公开方案或原作数据，不能作为可独立重放的公开实验数据。"
     }
   ]
 }
