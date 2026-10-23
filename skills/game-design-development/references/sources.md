@@ -291,3 +291,148 @@
 - 原意：行动、反制和变招可形成相互制约的可行选项；局部不必公平，但漫长的胜负已定阶段会削弱体验。
 - 本库建议：对高频强行动检查有效条件、识别迹象、回应代价和变招弱点，并通过距离、位置、时机等功能差异扩大实际用途。
 - 限制：面向竞争玩法；不机械要求三层反制，不要求局部与终局处处机会相等，不推广为全部游戏的目标。
+
+
+## 2026-10-24 深化研究
+
+本轮新增 14 条记录，其中 13 条读取了正文或相关方法、结果与局限章节，M04 仅为摘要级补充。开发者经验、概念文章、实证与理论使用研究分别标注，不按篇数计算独立验证。
+
+### Q01 · Prototypes & Vertical Slice
+
+- 来源：[Let's Talk About Production / author newsletter](https://ltpf.ramiismail.com/prototypes-and-vertical-slice/)；作者：Rami Ismail。
+- 日期：2022-09-26；文章标题下标示日期。 访问：2026-10-24。
+- 读取：正文全文；采用设计疑问、原型保真度和生产切片段落，不采用其素材侵权建议、融资时长或发行商普遍判断。
+- 证据位置：Should you make the game? paragraphs 1–5；Can you make the game? paragraphs 1–7。
+- 原意：作者将原型用于回答设计疑问，按问题选择资产与组合范围；纵向切片检验生产，并用下一代表单元校准制作成本。
+- 本库建议：列出测试决定、必须保留的变量及会使观察失效的简化，分别报告玩法证据与生产证据。
+- 限制：开发者经验文，非实验结论；可合并小项目阶段，不把单个单元耗时线性外推为完整工期。
+
+### Q02 · In Search of Lost Time: On Game Goals and Failure Costs
+
+- 来源：[Foundations of Digital Games 2010 / author-hosted paper](https://jesperjuul.net/text/losttime/)；作者：Jesper Juul。
+- 日期：2010-06；作者页文献头注明 FDG conference, Monterey, CA, June 2010；保留月份精度。 访问：2026-10-24。
+- 读取：摘要、正文七节、结论与参考文献全文；图示说明已读，图6明确为假设游戏的模拟，未当作玩家实测。
+- 证据位置：sections 2–3: difficulty and lost time；section 4: Permanent and Transient Goals；sections 5–7: failure communication, repetition, limitations。
+- 原意：作者用时间投入、重试体验与失败表达分析失败成本，并区分持续可完成的目标与一局即结算的目标。
+- 本库建议：分别诊断挑战要求、重试负担和目标结构，再比较检查点、反馈及重试变化。
+- 限制：概念分析及作品例子，不提供普遍最优惩罚值；未采用低失败成本是大众成功条件的推测；重试时间不自动等于浪费，随机变化也不必然改善体验。
+
+### F01 · Celeste & Forgiveness
+
+- 来源：[Maddy Makes Games](https://www.maddymakesgames.com/articles/celeste_and_forgiveness/index.html)；作者：Maddy Thorson。
+- 日期：未确认；所读作者网页未显示发表日期；说明内容来自作者早前的 Twitter thread，不据搜索抓取日期推断发表日期。 访问：2026-10-24。
+- 读取：十个小节与结语正文全文；嵌入动图未逐帧核读。
+- 证据位置：1. Coyote Time / 2. Jump Buffering；4. Jump Corner Correction / 5. Dash Corner Correction；10. Stamina Refunds；结语：时间或位置窗口。
+- 原意：作者描述边界输入的时间与空间宽容；落地前跳跃缓冲例子含按下并保持条件，相近动作可短时转换并返还消耗。
+- 本库建议：分别规格化时间与空间容错，并用误差被吸收和意图被错误改写两类情境测试。
+- 限制：特定平台游戏的作者案例；无对照实验，不提供通用容错参数；此处未独立运行游戏验证。
+
+### F02 · Combat Canceled: God of War & Action Game Design
+
+- 来源：[Game Developer / Gamasutra（经作者允许转载并改编自 Pushing Buttons）](https://www.gamedeveloper.com/game-platforms/combat-canceled-i-god-of-war-i-action-game-design)；作者：Eric Williams。
+- 日期：2008-02-15；转载网页正文署名旁日期；不声称是原博客首次发表日期。 访问：2026-10-24。
+- 读取：正文全文，包含定义、伪代码例子、作品比较与作者对 God of War 设计的说明；未核验文中其他作品具体行为。
+- 证据位置：What Is It, Exactly?：Partial / Complete、Buffer / Instant；The Effects Of Implementation；God Of War And Its Intended Audience：L1+Button specials 限制理由。
+- 原意：作者将取消时机与指令缓冲分开，并说明战神强招限制早期取消承担平衡和风险教学作用。
+- 本库建议：为各动作阶段编写转换与退款表，检查命中、落空后取消如何改变压制和行动风险。
+- 限制：作者自己的项目为参与者经验；其他作品论述包含作者推测；旧作具体数量、帧数及普遍比例不作为通用设计标准。
+
+### F03 · Clarity in League
+
+- 来源：[Riot Games / League of Legends](https://www.leagueoflegends.com/en-us/news/dev/clarity-in-league/)；作者：bananaband1t。
+- 日期：2021-03-12；正文显示 2021-03-12T16:00:00.000Z。 访问：2026-10-24。
+- 读取：主体正文全文，包括层级、轮廓、技能、外观、地图和变身段落；轮播媒体未逐项打开，不声称覆盖所有图示案例。
+- 证据位置：The Unbreakable Vows；Abilities / hierarchy rules；Filling Up Buckets；Abilities：clarity parity；Cosmetic Animations。
+- 原意：团队将反馈优先级与玩法重要性相连，同时控制噪声、判定误读和外观变化造成的识别成本。
+- 本库建议：按危险与可回应性排提示优先级，在重叠场面和外观变体中检查信号含义是否仍一致。
+- 限制：竞技 MOBA 的官方目标与案例，非效果量研究；不强制叙事或恐怖作品公开所有信息。
+
+### F04 · Opinion: Dealing With Designer Input Latency
+
+- 来源：[Game Developer / Gamasutra（转载自 AltDevBlogADay）](https://www.gamedeveloper.com/design/opinion-dealing-with-designer-input-latency)；作者：Norm Nazaroff。
+- 日期：2011-04-18；转载网页正文显示日期；不声称是原文首次发表日期。 访问：2026-10-24。
+- 读取：正文全文：输入事件与状态、长按、双击、状态变更、缓冲、打断和结语；未实测举例游戏。
+- 证据位置：How Do We Create Designed Latency?；Dealing With Holds；Dealing With State Changes；Buffering Is Helpful；They Go Together Like Lamb And Tuna Fish。
+- 原意：输入识别和状态规则本身可制造等待；输入保留过久可能在意图改变后执行，复用按钮也可能误判意图。
+- 本库建议：明确按下/松开/持续状态、保留期、替换和清理条件，区分收到输入与允许执行。
+- 限制：作者意见文，以数字手柄按钮为范围；原文时间估计无此处可用的测量依据；长按并非只能等松开才响应；作者引用 F02，因此二者相关内容不计为独立验证。
+
+### L01 · Puzzle Level Idea Strategies
+
+- 来源：[Patrick Traynor personal website](https://cwpat.me/misc/puzzle-level-idea-strategies/)；作者：Patrick Traynor。
+- 日期：2022-07-14；HTML article heading displays 2022-07-14 访问：2026-10-24。
+- 读取：Read entire HTML article text, including Other notes; illustrations were not separately examined.
+- 证据位置：Find an interaction and force it；Enumerate action sequences；Create a possible level, then make it impossible；Keep your eyes open for things almost happen moments；Turn alternate solutions into separate levels；Other notes: Investigate variations while iterating。
+- 原意：Puzzle ideas can be sought through required interactions, changed sequences and constraints, boundary cases, tester misunderstandings, near-solutions and alternate solutions. Many drafts will not become good puzzles.
+- 本库建议：Record an intended discovery, build a minimal scenario, investigate a small set of transformations, and preserve unexpected solutions as possible material for further puzzles.
+- 限制：A personal toolkit with acknowledged contributors, not an exhaustive or experimentally ranked method. A required interaction suits focused discovery; unrestricted systems may benefit from multiple valid solutions. Do not copy another game's level layouts.
+
+### L02 · Puzzle Dependency Charts
+
+- 来源：[Grumpy Gamer](https://grumpygamer.com/puzzle_dependency_charts/)；作者：Ron Gilbert。
+- 日期：2014-08-10；Article displays Aug 10, 2014 访问：2026-10-24。
+- 读取：Read full HTML article text. Did not separately inspect all diagram image contents.
+- 证据位置：Definition paragraph: graph nodes are puzzles or steps and edges indicate prerequisites；Basement example: unlocking and oiling can be pursued in parallel；Sub-diamond expansion and contraction；Acts ending in a bottleneck。
+- 原意：Prerequisite graphs expose parallel puzzles and bottlenecks; the author designs backwards from the end of a puzzle chain and groups adventures into acts.
+- 本库建议：Map actual prerequisites, inspect what remains available when the player is stuck, and distinguish these hard conditions from recommended play order or clue links.
+- 限制：Adventure-game practice and strong personal preferences. A suggested two-or-three branch structure and rejection of linearity are not universal rules. Graph structure alone cannot establish puzzle quality.
+
+### L03 · Outer Wilds: A Game of Curiosity-Driven Space Exploration
+
+- 来源：[University of Southern California, School of Cinematic Arts; original thesis accessed through a PDF mirror](https://sbekumod.github.io/Assets/OWtesi.pdf)；作者：Alex Beachum。
+- 日期：2013-05；PDF title page: May, 2013; DataCite Issued: 2013-04-30. Preserve both records without inventing a combined exact date. 访问：2026-10-24。
+- 读取：Read extracted text of all 29 mirror PDF pages, revisiting truncated sections; figures not visually audited. USC catalog returned 403; DOI identity subsequently verified through DataCite API.
+- 证据位置：pp.9–11 A Web of Curiosities: knowledge-based access；pp.13–15 Exploring the 4th Dimension / Knowledge Over Agency；pp.18–21 A Flawed Introduction；pp.21–24 Welcome to the Space Program / Building Models；pp.25–27 Future Extensions and Conclusions explicitly state most POIs/Curiosities are not implemented；Identity: https://api.datacite.org/dois/10.25549/usctheses-c3-248860。
+- 原意：The thesis proposes a knowledge-led exploration network and reports failed and revised introductions. Early forced tasks did not convey the intended use of tools or prepare players for flight. Familiar local context and interactive models helped in the author's playtest observations.
+- 本库建议：Distinguish learned knowledge from system unlock flags; compare tutorial actions with actual gameplay use; test whether a discovery creates an investigable question for players entering in different orders.
+- 限制：2013 student version; most proposed knowledge network was not implemented. Teaching observations involved multiple simultaneous changes, not controlled causal evidence. Bibliographic identity checked against DataCite; mirror has not been compared with official PDF bytes.
+
+### L05 · Why Adventure Games Suck And What We Can Do About It
+
+- 来源：[Grumpy Gamer](https://grumpygamer.com/why_adventure_games_suck/)；作者：Ron Gilbert。
+- 日期：2004-05-12；Web republication displays May 12, 2004; introductory paragraph and article copyright identify original writing as 1989 访问：2026-10-24。
+- 读取：Read full HTML text including the 2004 preface and entire republished essay.
+- 证据位置：2004 preface: author no longer agrees with everything；End objective needs to be clear；Live and learn；Backwards Puzzles；I forgot to pick it up；Real time is bad drama；Give the player options。
+- 原意：For story adventures the author recommends intelligible objectives, motivated prerequisites, survivable learning and alternative puzzles when stuck. He explicitly acknowledges exceptions and later disagreement with some original claims.
+- 本库建议：Audit whether a solution requires unavailable or unknowable information and whether blocked progress offers useful alternatives; evaluate these recommendations against the intended experience and the game's retry structure.
+- 限制：1989 adventure-game context with a 2004 qualifying preface. Opposition to death-based learning or independent world time is not suitable as a universal rule, particularly for deliberately repeated observation and time-loop structures.
+
+### M01 · The Motivational Pull of Video Games: A Self-Determination Theory Approach
+
+- 来源：[Motivation and Emotion / Springer; author PDF hosted by Center for Self-Determination Theory](https://selfdeterminationtheory.org/SDT/documents/2006_RyanRigbyPrzybylski_MandE.pdf)；作者：Richard M. Ryan、C. Scott Rigby、Andrew Przybylski。
+- 日期：2006；原 PDF 标注 2006，保留年份精度；未确认精确出版日。DOI: 10.1007/s11031-006-9051-8 访问：2026-10-24。
+- 读取：已取得全文，核读概念、Studies 1–4 方法和主要结果、总讨论和局限；未重算统计。
+- 证据位置：PDF pp. 3–4: theory and constructs；PDF pp. 5, 8, 10, 12: methods；PDF pp. 12–14: Study 4 measures and results；PDF pp. 15–16: general discussion and limitations。
+- 原意：需求满足与体验和未来意向有关；第一项含当场继续/换游戏的行为选择，第四项未来游玩以自报计划月份测量。
+- 本库建议：将行为、体验、意愿和真实回访分别记录；以需求概念生成具体设计问题，避免直接当机制配方。
+- 限制：学生与自选 MMO 社区样本；需求主要为问卷测量，游戏安排随机化不等于操纵需求。原 PDF 部分样本总数与分项不齐，未核正误表，不统一各指标样本量。未证实任意机制的因果作用或长期留存。
+
+### M02 · Iwata Asks: Animal Crossing: New Leaf — 2. Being the Mayor
+
+- 来源：[Nintendo](https://www.nintendo.com/en-gb/Iwata-Asks/Iwata-Asks-Animal-Crossing-New-Leaf/Animal-Crossing-New-Leaf/2-Being-the-Mayor/2-Being-the-Mayor-738645.html)；作者：Satoru Iwata、Aya Kyogoku、Isao Moro、Koji Takahashi。
+- 日期：2012-10-31；同一访谈第 1 章编者注注明日本原刊日期；日期不代表英语网页发布日期。 访问：2026-10-24。
+- 读取：已读第 1、2 章正文；本记录以第 2 章设计过程为主。
+- 证据位置：Chapter 2: shop hours and the player's circumstances；Chapter 2: mayor duties and easy-going life；Chapter 2: public works completion ceremony and refusal；Chapter 1 editor note: original publication date。
+- 原意：开发者讲述作息适配、履职自由和完工仪式；拒绝仪式仍有角色失落回应。
+- 本库建议：为自定目标提供可操作材料和成果回应，并检查拒绝或结束后的实际反馈是否符合目标体验。
+- 限制：具体作品的开发者叙述，没有对照实验；情感压力分析为本轮推断，不能声称所有玩家都作相同理解。
+
+### M03 · Self-Determination Theory and HCI Games Research: Unfulfilled Promises and Unquestioned Paradigms
+
+- 来源：[arXiv author preprint, v1](https://arxiv.org/html/2405.12639v1)；作者：April Tyack、Elisa D. Mekler。
+- 日期：2024-05-21；arXiv:2405.12639v1，2024-05-21；提交页标注 TOCHI 接收并关联 DOI 10.1145/3673230，本次仍仅引用已读 v1。 访问：2026-10-24。
+- 读取：核读理论定义、文献筛选及编码、结果、设计讨论和局限；未逐一核读被引研究。
+- 证据位置：Section 5.1 and Table 2；Section 8.2；Sections 9.1–9.2；Section 11。
+- 原意：259 篇 HCI 游戏论文的分析指出浅层理论应用问题，倡导明确用途与情境；语料止于 2021 年。
+- 本库建议：要求每个动机概念指出它改变了哪项设计、预期现象和失败条件；把退出与重新进入也纳入自主性的考虑。
+- 限制：研究对象是理论使用，无法证明 SDT 无效或某种玩法优劣；选刊与 GDC 材料有限，引用方式也不能完全代表真实设计实践。
+
+### M04 · Towards understanding the effects of individual gamification elements on intrinsic motivation and performance
+
+- 来源：[Computers in Human Behavior / Elsevier; University of Basel institutional record](https://edoc.unibas.ch/entities/publication/ccec8ccc-aa54-417d-b205-334b518d6eed)；作者：Elisa D. Mekler、Florian Brühlmann、Alexandre N. Tuch、Klaus Opwis。
+- 日期：2017-06；出版商记录为 Volume 71, June 2017, pp.525–534，保留月份精度；不采用机构库可能占位的 2017-01-01。 访问：2026-10-24。
+- 读取：已核读机构库摘要和出版商记录；未获得可读全文。作者学位论文旧链接重定向后要求登录，停止获取。
+- 证据位置：Institutional record: Abstract；Publisher record: Highlights and bibliographic information, https://www.sciencedirect.com/science/article/abs/pii/S0747563215301229。
+- 原意：该图像标注研究中，游戏化元素增加产出数量，未检出胜任感或内在动机的显著变化。
+- 本库建议：将产出数量和体验效果分开评估；只作摘要级补充，不据此制定奖励的普遍规律。
+- 限制：样本量、排除规则、效应量和具体实现本轮未从正文核实；非游戏任务，不能直接外推娱乐游戏或解释无显著差异为完全无影响。

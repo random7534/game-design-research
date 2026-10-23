@@ -31,6 +31,15 @@
 
 从当前玩法问题进入，不要求依次填完每张表。创意方案要能演示玩家如何玩；已有作品优先查看实际卡点。小规模方案保留决定乐趣的规则与反馈，按本轮问题删减内容。
 
+## 进一步处理具体问题
+
+- [关卡与探索](../skills/game-design-development/references/level-design.md)：从规则生成问题，区分通关条件、知识与线索。
+- [动作手感](../skills/game-design-development/references/action-feel.md)：输入保留、取消关系、意图误判与信号优先级。
+- [动机与奖励](../skills/game-design-development/references/motivation-rewards.md)：奖励的实际作用、自定目标及满意结束。
+- [原型与失败成本](../skills/game-design-development/references/prototype-and-challenge.md)：保留待测变量，分开挑战与重试负担。
+
+方法的证据强度和继续研究的问题见 [研究深度与边界](research-depth.md)。
+
 ## 作品案例学习
 
 [《疑案追声》策划学习包](case-studies/unheard/README.md)从五个案件提炼路线教学、人物误认、物品流转、声音互证和因果反转，再给出改版取舍与具体调查推演。适合学习怎样分配信息、让玩家主动改变调查方向，以及怎样减少找回证据的重复劳动。原作观察、开发者意图和本次待试玩方案分别注明，案例资料单列，不改变通用方法的来源计数。

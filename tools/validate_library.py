@@ -113,7 +113,7 @@ def validate(root):
                     errors.append(f'{rel}: link leaves public root: {target}')
                 elif not dest.exists():
                     errors.append(f'{rel}: broken local link: {target}')
-            for sid in re.findall(r'\[((?:D\d\d|G\d\d|R\d\d|PROD-\d\d|XHS-[A-Z0-9]+))\]',content):
+            for sid in re.findall(r'\[((?:[DGRQFLM]\d\d|PROD-\d\d|XHS-[A-Z0-9]+))\]',content):
                 if sid not in source_ids:
                     errors.append(f'{rel}: unknown cited source: {sid}')
     return {'ok': not errors,'primary_sources':primary,'community_records':community,
