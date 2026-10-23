@@ -1,0 +1,635 @@
+{
+  "schema_version": 1,
+  "compiled_on": "2026-10-24",
+  "status": "external_sources_and_proposed_synthesis",
+  "primary_source_count": 21,
+  "community_record_count": 7,
+  "sources": [
+    {
+      "id": "D01",
+      "title": "MDA: A Formal Approach to Game Design and Game Research",
+      "authors": [
+        "Robin Hunicke",
+        "Marc LeBlanc",
+        "Robert Zubek"
+      ],
+      "publisher": "AAAI / Northwestern author-hosted PDF",
+      "url": "https://www.cs.northwestern.edu/~hunicke/MDA.pdf",
+      "publication_date": "2004-06-20",
+      "date_basis": "AAAI paper metadata",
+      "accessed_on": "2026-10-23",
+      "type": "primary_research_paper",
+      "coverage": "full_text_opened",
+      "evidence_locations": [
+        "PDF p.2: definitions, designer/player perspectives",
+        "PDF pp.3-4: dynamic models and tuning",
+        "PDF p.5: conclusions"
+      ],
+      "source_claim": "机制、运行行为与玩家期望情绪体验彼此关联，设计和调优需要在这些层次之间往返。",
+      "proposed_action": "先写体验与可观察行为的因果假设，评审功能对行为的影响并用游玩观察修正。",
+      "limits": "分析框架不提供乐趣配方；Aesthetics 不等于画风；不强制艺术探索从数值设计开始。"
+    },
+    {
+      "id": "D02",
+      "title": "Level 7: Decision-Making and Flow Theory",
+      "authors": [
+        "Ian Schreiber"
+      ],
+      "publisher": "Game Design Concepts, author course",
+      "url": "https://gamedesignconcepts.wordpress.com/2009/07/20/level-7-decision-making-and-flow-theory/",
+      "publication_date": "2009-07-20",
+      "date_basis": "article footer",
+      "accessed_on": "2026-10-23",
+      "type": "primary_author_course",
+      "coverage": "full_text_opened",
+      "evidence_locations": [
+        "Things Not To Do",
+        "What Makes Good Decisions?",
+        "What About Action Games?",
+        "Emotional Decisions"
+      ],
+      "source_claim": "取舍、风险、时机与情感会影响选择价值；作者指出无影响、明显答案和缺乏信息的选择问题，也保留情感选择例外。",
+      "proposed_action": "为高频选择记录信息、代价、后果与情感价值，再检查盲猜或占优解。",
+      "limits": "作者分类非统一标准；不能删掉全部表达性选择，刻意未知与低策略体验可有独立用途。"
+    },
+    {
+      "id": "D03",
+      "title": "Level 2: Numeric Relationships",
+      "authors": [
+        "Ian Schreiber"
+      ],
+      "publisher": "Game Balance Concepts, author course",
+      "url": "https://gamebalanceconcepts.wordpress.com/2010/07/14/level-2-numeric-relationships/",
+      "publication_date": "2010-07-14",
+      "date_basis": "article footer",
+      "accessed_on": "2026-10-23",
+      "type": "primary_author_course",
+      "coverage": "full_text_opened",
+      "evidence_locations": [
+        "This Week’s Topic",
+        "Interactions Between Relationships",
+        "How Relationships Interact",
+        "If You’re Working On a Game Now…"
+      ],
+      "source_claim": "资源数值通过关系才有意义，转换链条和循环可叠加或抵消，应画图识别。",
+      "proposed_action": "列资源与转换、获取消耗、上限和重置，跑返回同一资源的循环，并按阶段检查边界。",
+      "limits": "数值等价不能覆盖位置、操作、信息和协同；平衡不等于全部选项相等。"
+    },
+    {
+      "id": "D04",
+      "title": "Level 10: Final Boss",
+      "authors": [
+        "Ian Schreiber"
+      ],
+      "publisher": "Game Balance Concepts, author course",
+      "url": "https://gamebalanceconcepts.wordpress.com/2010/09/08/level-10-final-boss/",
+      "publication_date": "2010-09-08",
+      "date_basis": "article footer",
+      "accessed_on": "2026-10-23",
+      "type": "primary_author_course",
+      "coverage": "full_text_opened",
+      "evidence_locations": [
+        "Economic Systems",
+        "Scarcity",
+        "Inflation",
+        "Trading"
+      ],
+      "source_claim": "资源生成、销毁、交换、稀缺和玩家交易行为影响游戏体验与持久世界经济。",
+      "proposed_action": "按单局、有限流程与持久世界分别检查产出消耗、囤积、交易、持有分布和进入条件。",
+      "limits": "供需推演依赖简化假设，不能直接推断所有游戏市场；单人有限流程不必照搬 MMO 经济治理。"
+    },
+    {
+      "id": "D05",
+      "title": "The Chemistry Of Game Design",
+      "authors": [
+        "Daniel Cook"
+      ],
+      "publisher": "Gamasutra, currently Game Developer",
+      "url": "https://www.gamedeveloper.com/design/the-chemistry-of-game-design",
+      "publication_date": "2007-07-19",
+      "date_basis": "article header",
+      "accessed_on": "2026-10-23",
+      "type": "primary_designer_essay",
+      "coverage": "full_text_opened",
+      "evidence_locations": [
+        "Chapter 3: Skill Atoms",
+        "Chaining Of Game Mechanics",
+        "Lack Of The Correct Initial Skills",
+        "Pre-mastery Of Skills Taught In The Game"
+      ],
+      "source_claim": "动作、模拟更新、反馈和玩家理解组成技能原子，技能依赖及玩家初始能力可帮助定位学习断点。",
+      "proposed_action": "教学验证玩家是否理解结果并能在变化情境独立运用，分别记录操作、观察与理解失败。",
+      "limits": "采用其诊断模型，不把文中关于所有乐趣和神经化学的强推论当作实证定律。"
+    },
+    {
+      "id": "D06",
+      "title": "Game Design as Narrative Architecture",
+      "authors": [
+        "Henry Jenkins"
+      ],
+      "publisher": "MIT author page",
+      "url": "https://web.mit.edu/~21fms/People/henry3/games%26narrative.html",
+      "publication_date": null,
+      "date_basis": "webpage undated; no inferred publication date used",
+      "accessed_on": "2026-10-23",
+      "type": "primary_author_essay",
+      "coverage": "full_text_opened",
+      "evidence_locations": [
+        "opening five qualifications",
+        "SPATIAL STORIES AND ENVIRONMENTAL STORYTELLING",
+        "EMBEDDED NARRATIVES",
+        "EMERGENT NARRATIVES"
+      ],
+      "source_claim": "游戏不必讲故事；空间可唤起联想、承载事件、嵌入叙事信息或支持涌现故事。",
+      "proposed_action": "把重要信息映射到可观察、可操作对象，检查发现顺序、遗漏补救及状态影响。",
+      "limits": "空间分析不排除对白、文字和线性演出；玩家理解需要实际验证。"
+    },
+    {
+      "id": "D07",
+      "title": "Integrating Narrative and Design: A Portal Post-Mortem",
+      "authors": [
+        "Kim Swift",
+        "Erik Wolpaw"
+      ],
+      "publisher": "Valve / GDC",
+      "url": "https://cdn.fastly.steamstatic.com/apps/valve/2008/GDC2008_PortalPostMortem.pdf",
+      "publication_date": "2008-02",
+      "date_basis": "Valve publications index, month precision",
+      "accessed_on": "2026-10-23",
+      "type": "primary_developer_postmortem_slides",
+      "coverage": "full_text_opened_and_selected_slides_requested",
+      "evidence_locations": [
+        "PDF p.7: Delta Theory",
+        "PDF pp.12-14: design goals and playtesting",
+        "PDF pp.24-31: Companion Cube and incineration training"
+      ],
+      "source_claim": "团队借助游玩测试反复调整叙事和玩法，两者能够互相影响。",
+      "proposed_action": "比较角色动机、实际奖励和玩家行为，确定矛盾是否有意，并通过可玩片段验证改动。",
+      "limits": "Portal 的少叙事策略有项目背景；不可普遍推导为删除对白或消除一切矛盾。"
+    },
+    {
+      "id": "D08",
+      "title": "The AI Systems of Left 4 Dead",
+      "authors": [
+        "Michael Booth"
+      ],
+      "publisher": "Valve / AIIDE, Stanford University",
+      "url": "https://cdn.fastly.steamstatic.com/apps/valve/2009/ai_systems_of_l4d_mike_booth.pdf",
+      "publication_date": "2009",
+      "date_basis": "Valve publications index, year precision",
+      "accessed_on": "2026-10-23",
+      "type": "primary_developer_technical_talk",
+      "coverage": "full_text_opened_and_selected_slide_requested",
+      "evidence_locations": [
+        "PDF pp.78-82: dramatic pacing and state cycle",
+        "PDF p.92: pacing frequency vs difficulty amplitude"
+      ],
+      "source_claim": "L4D 用强度估计调节威胁出现的节奏；该方案明确将节奏与难度分开。",
+      "proposed_action": "分别记录遭遇强度、持续时间、间隔和恢复，诊断疲劳或空白后改一个段落。",
+      "limits": "合作生存射击案例；不要迁移具体秒数，不默认所有游戏需要自适应导演。"
+    },
+    {
+      "id": "PROD-01",
+      "title": "How to make your dream game, publish it and not die in the process",
+      "authors": [
+        "Juan Linietsky"
+      ],
+      "publisher": "Godot Engine",
+      "url": "https://godotengine.org/article/how-actually-make-your-dream-game/",
+      "publication_date": "2017-08-11",
+      "updated_on": null,
+      "date_basis": "页面标示日期；null表示页面未标示，stable文档仍可能更新",
+      "accessed_on": "2026-10-23",
+      "type": "first_party_practitioner_article",
+      "coverage": "relevant_sections_read",
+      "evidence_locations": [
+        "Making a prototype",
+        "Making a vertical slice",
+        "Developing until Alpha",
+        "Fill it with assets, go towards Beta!",
+        "Gold"
+      ],
+      "source_claim": "原型验证玩法，纵向切片验证目标质量的生产能力，完整流程需要单独完成。",
+      "proposed_action": "按项目阶段和风险采用，见 production.md 与系统、验证参考。",
+      "limits": "经验文章，官网提示过时；不沿用其市场断言、投资比例或无条件快速脏代码建议。阶段可按项目合并。"
+    },
+    {
+      "id": "PROD-02",
+      "title": "Saving games",
+      "authors": [],
+      "publisher": "Godot Engine documentation",
+      "url": "https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html",
+      "publication_date": null,
+      "updated_on": null,
+      "date_basis": "页面标示日期；null表示页面未标示，stable文档仍可能更新",
+      "accessed_on": "2026-10-23",
+      "type": "official_documentation",
+      "coverage": "relevant_sections_read",
+      "evidence_locations": [
+        "Identify persistent objects",
+        "Serializing",
+        "Some notes",
+        "JSON vs binary serialization"
+      ],
+      "source_claim": "先选持久字段；示例省略加载前游戏状态设置，嵌套对象和 JSON 类型有额外限制。",
+      "proposed_action": "按项目阶段和风险采用，见 production.md 与系统、验证参考。",
+      "limits": "教程示例不提供完整存档架构；版本迁移、写入中断和坏文件策略是项目所需设计。"
+    },
+    {
+      "id": "PROD-03",
+      "title": "Resource",
+      "authors": [],
+      "publisher": "Godot Engine documentation",
+      "url": "https://docs.godotengine.org/en/stable/classes/class_resource.html",
+      "publication_date": null,
+      "updated_on": null,
+      "date_basis": "页面标示日期；null表示页面未标示，stable文档仍可能更新",
+      "accessed_on": "2026-10-23",
+      "type": "official_api_documentation",
+      "coverage": "relevant_sections_read",
+      "evidence_locations": [
+        "Description",
+        "resource_local_to_scene",
+        "duplicate",
+        "duplicate_deep"
+      ],
+      "source_claim": "路径加载资源可共享缓存引用；浅复制共享嵌套对象，深复制和场景本地资源有具体条件。",
+      "proposed_action": "按项目阶段和风险采用，见 production.md 与系统、验证参考。",
+      "limits": "须核对项目的 Godot 版本，不能将当前 stable API 用法直接套入旧版。"
+    },
+    {
+      "id": "PROD-04",
+      "title": "General optimization tips",
+      "authors": [],
+      "publisher": "Godot Engine documentation",
+      "url": "https://docs.godotengine.org/en/stable/tutorials/performance/general_optimization.html",
+      "publication_date": null,
+      "updated_on": null,
+      "date_basis": "页面标示日期；null表示页面未标示，stable文档仍可能更新",
+      "accessed_on": "2026-10-23",
+      "type": "official_documentation",
+      "coverage": "relevant_sections_read",
+      "evidence_locations": [
+        "The nature of slowness",
+        "Measuring performance",
+        "Detective work",
+        "Principles",
+        "The optimization process"
+      ],
+      "source_claim": "设计时考虑性能；测量目标设备瓶颈，优化后重测，区分低帧、卡顿与加载慢。",
+      "proposed_action": "按项目阶段和风险采用，见 production.md 与系统、验证参考。",
+      "limits": "平均 FPS 与单台开发机不能覆盖所有性能问题；CPU profiler 也不覆盖全部 GPU 和系统开销。"
+    },
+    {
+      "id": "PROD-05",
+      "title": "Exporting projects",
+      "authors": [],
+      "publisher": "Godot Engine documentation",
+      "url": "https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html",
+      "publication_date": null,
+      "updated_on": null,
+      "date_basis": "页面标示日期；null表示页面未标示，stable文档仍可能更新",
+      "accessed_on": "2026-10-23",
+      "type": "official_documentation",
+      "coverage": "relevant_sections_read",
+      "evidence_locations": [
+        "Export menu",
+        "Resource options",
+        "Configuration files",
+        "Exporting from the command line"
+      ],
+      "source_claim": "仅 PCK/ZIP 数据导出不能代表可玩构建；导出需预设模板，非资源文件要检查过滤规则，凭据通常不应共享。",
+      "proposed_action": "按项目阶段和风险采用，见 production.md 与系统、验证参考。",
+      "limits": "构建成功仍需从实际产物启动与验证；不能仅凭 ZIP 扩展名判断可玩性。"
+    },
+    {
+      "id": "PROD-06",
+      "title": "Xbox Accessibility Guidelines V3.2",
+      "authors": [],
+      "publisher": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/xbox/accessibility/guidelines",
+      "publication_date": "2023-06-08",
+      "updated_on": "2026-08-14",
+      "date_basis": "页面标示日期；null表示页面未标示，stable文档仍可能更新",
+      "accessed_on": "2026-10-23",
+      "type": "official_best_practice_guidelines",
+      "coverage": "relevant_sections_read",
+      "evidence_locations": [
+        "Introduction",
+        "Overview of XAG components",
+        "In this section"
+      ],
+      "source_claim": "指南用于设计、实现与测试，先判断适用交互；官方明确不等于法律或合规认证。",
+      "proposed_action": "按项目阶段和风险采用，见 production.md 与系统、验证参考。",
+      "limits": "单个示例仅演示相关条目；清单通过不能据此宣称面向所有残障玩家完全可访问。"
+    },
+    {
+      "id": "PROD-07",
+      "title": "Making games accessible",
+      "authors": [],
+      "publisher": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/windows/uwp/gaming/accessibility-for-games",
+      "publication_date": null,
+      "updated_on": "2026-03-03",
+      "date_basis": "页面标示日期；null表示页面未标示，stable文档仍可能更新",
+      "accessed_on": "2026-10-23",
+      "type": "official_documentation",
+      "coverage": "relevant_sections_read",
+      "evidence_locations": [
+        "Is the game you are making today accessible?",
+        "Review",
+        "Playtest and iterate",
+        "Game accessibility features"
+      ],
+      "source_claim": "尽早设计并持续审查可访问性；邀请有相关需求的玩家实际游玩和反馈。",
+      "proposed_action": "按项目阶段和风险采用，见 production.md 与系统、验证参考。",
+      "limits": "不沿用旧人口数据或医学阈值；模拟器不能替代相关玩家的完整流程测试。"
+    },
+    {
+      "id": "PROD-08",
+      "title": "Steam Playtest",
+      "authors": [],
+      "publisher": "Valve / Steamworks",
+      "url": "https://partner.steamgames.com/doc/features/playtest",
+      "publication_date": null,
+      "updated_on": null,
+      "date_basis": "页面标示日期；null表示页面未标示，stable文档仍可能更新",
+      "accessed_on": "2026-10-23",
+      "type": "official_platform_documentation",
+      "coverage": "relevant_sections_read",
+      "evidence_locations": [
+        "How does it work?",
+        "How do I set it up?",
+        "Gathering Feedback From Players",
+        "Frequently Asked Questions"
+      ],
+      "source_claim": "可用独立关联 App ID 控制试玩分发；开发者仍需自行组织反馈与说明测试问题。",
+      "proposed_action": "按项目阶段和风险采用，见 production.md 与系统、验证参考。",
+      "limits": "平台渠道仅按项目目标选择；公开 Playtest 不天然保密，样本不自动代表目标市场。"
+    },
+    {
+      "id": "PROD-09",
+      "title": "Review Process",
+      "authors": [],
+      "publisher": "Valve / Steamworks",
+      "url": "https://partner.steamgames.com/doc/store/review_process",
+      "publication_date": null,
+      "updated_on": null,
+      "date_basis": "页面标示日期；null表示页面未标示，stable文档仍可能更新",
+      "accessed_on": "2026-10-23",
+      "type": "official_platform_documentation",
+      "coverage": "relevant_sections_read",
+      "evidence_locations": [
+        "Overview",
+        "Reviewing Store Presence",
+        "Reviewing Product Build"
+      ],
+      "source_claim": "商店声明与所提交构建应一致，所列系统能够启动；Ready for release 为审核通过待发布状态。",
+      "proposed_action": "按项目阶段和风险采用，见 production.md 与系统、验证参考。",
+      "limits": "审核不替代完整质量验证；提交日需要重查政策与周期，审核通过不能称已经发布。"
+    },
+    {
+      "id": "PROD-10",
+      "title": "Steam Deck and Steam Machine Compatibility Review",
+      "authors": [],
+      "publisher": "Valve / Steamworks",
+      "url": "https://partner.steamgames.com/doc/steamhardware/compat",
+      "publication_date": null,
+      "updated_on": null,
+      "date_basis": "页面标示日期；null表示页面未标示，stable文档仍可能更新",
+      "accessed_on": "2026-10-23",
+      "type": "official_platform_documentation",
+      "coverage": "relevant_sections_read",
+      "evidence_locations": [
+        "Compatibility Ratings",
+        "Compatibility Checklist",
+        "Requirements for Steam Deck and Steam Machine",
+        "Steam Deck Specific Requirements"
+      ],
+      "source_claim": "兼容性分级区分经过验证、需调整、无法运行与未知；输入、性能和显示须按目标设备验证。",
+      "proposed_action": "按项目阶段和风险采用，见 production.md 与系统、验证参考。",
+      "limits": "该设备门槛不应通用于全部游戏；自测不构成 Valve Verified，兼容性审查与一般发布审查独立。"
+    },
+    {
+      "id": "R01",
+      "title": "Writing with ink",
+      "authors": [
+        "inkle"
+      ],
+      "publisher": "inkle official repository",
+      "url": "https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md",
+      "publication_date": null,
+      "date_basis": "持续维护文档，未使用页面抓取时间代替发布日期",
+      "accessed_on": "2026-10-23",
+      "type": "official_documentation",
+      "coverage": "relevant_sections_read",
+      "evidence_locations": [
+        "Choices",
+        "Branching and joining",
+        "Variables and Logic",
+        "Advanced: Game-side logic"
+      ],
+      "source_claim": "文档展示选择、分支汇合、变量、条件与游戏端逻辑接口。",
+      "proposed_action": "记录分支条件与持久变化，再检查汇合是否保留承诺的后果。",
+      "limits": "工具机制不保证叙事有效；不要求全部项目改用 ink。"
+    },
+    {
+      "id": "R02",
+      "title": "Update Method",
+      "authors": [
+        "Robert Nystrom"
+      ],
+      "publisher": "Game Programming Patterns, author site",
+      "url": "https://gameprogrammingpatterns.com/update-method.html",
+      "publication_date": null,
+      "date_basis": "网页未标日期",
+      "accessed_on": "2026-10-23",
+      "type": "primary_author_book_chapter",
+      "coverage": "chapter_text_read",
+      "evidence_locations": [
+        "When to Use It",
+        "Objects all simulate each frame but are not truly concurrent",
+        "Be careful modifying the object list while updating"
+      ],
+      "source_claim": "分帧更新适合需随时间运行的对象，更新顺序会影响观察到的状态；棋类策略不一定适用。",
+      "proposed_action": "区分程序循环与玩法循环，定义结算顺序，按实际并行或实时需求选组织方式。",
+      "limits": "代码范例说明模式，不是默认架构；不同游戏与引擎有不同实现。"
+    },
+    {
+      "id": "R03",
+      "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+      "authors": [
+        "Joon Sung Park",
+        "Joseph C. O’Brien",
+        "Carrie J. Cai",
+        "Meredith Ringel Morris",
+        "Percy Liang",
+        "Michael S. Bernstein"
+      ],
+      "publisher": "UIST 2023 / author arXiv paper",
+      "url": "https://arxiv.org/html/2304.03442v2",
+      "publication_date": "2023-04-07",
+      "updated_on": "2023-08-06",
+      "date_basis": "arXiv v1提交与v2修订记录",
+      "accessed_on": "2026-10-23",
+      "type": "primary_research_paper",
+      "coverage": "abstract_architecture_and_limitations_read",
+      "evidence_locations": [
+        "Abstract",
+        "4 Generative Agent Architecture",
+        "7.2 Boundaries and Errors",
+        "8.2 Future Work and Limitations"
+      ],
+      "source_claim": "论文用记忆、反思和计划支持可信社会行为，也报告记忆检索、地点规范和过度合作等错误。",
+      "proposed_action": "按游戏目标测行动一致、知情边界、长局记忆与失败恢复，另测成本和延迟。",
+      "limits": "可信行为指标不能代替乐趣、留存或商业可运行性；本文未验证当前游戏。"
+    },
+    {
+      "id": "XHS-01",
+      "title": "一人开发独游，艰难上线后的感慨",
+      "authors": [
+        "黑暗肉渣"
+      ],
+      "publisher": "小红书公开笔记",
+      "url": "https://www.xiaohongshu.com/explore/6a96bd45000000002b01e47f",
+      "publication_date": null,
+      "date_basis": "页面可见 09-01，未显示年份。",
+      "accessed_on": "2026-10-23/2026-10-24",
+      "type": "community_self_report",
+      "coverage": "6/6 张图文，以及页面可见作者回复。",
+      "evidence_locations": [
+        "浏览器可见公开页面；详见 xhs-research.md"
+      ],
+      "source_claim": "作者以《陋室与猫》上线后的经历讨论个人开发对能力与工期的高估，资金不足后接外包对进度的挤占，以及缺少外部反馈对判断的影响。",
+      "proposed_action": "独立开发排期是否留出返工与生活费用？首次外部试玩安排在什么时间？正式版与演示版是否分别通过稳定性检查？",
+      "limits": "未独立核验项目质量、销售与工期。作者末页同时称试玩版频繁崩溃且暂不修复，此做法不宜转成发布建议。",
+      "use_status": "question_lead_only"
+    },
+    {
+      "id": "XHS-02",
+      "title": "MA GameDesign 学习随记 Week3 D1",
+      "authors": [
+        "蜜桃拿铁"
+      ],
+      "publisher": "小红书公开笔记",
+      "url": "https://www.xiaohongshu.com/explore/6ac43db1000000001403ad3e",
+      "publication_date": null,
+      "date_basis": "页面可见 10-06，未显示年份。",
+      "accessed_on": "2026-10-23/2026-10-24",
+      "type": "community_self_report",
+      "coverage": "完整文字正文；未读取附带的 2 张图片。",
+      "evidence_locations": [
+        "浏览器可见公开页面；详见 xhs-research.md"
+      ],
+      "source_claim": "作者记录课堂任务：选取现有电子游戏的关键机制，做成非数字游戏。跨媒介改编需要理解原作的游玩感受，并重新组织规则与反馈。小组先列举、筛选机制，再制作小原型。",
+      "proposed_action": "想保留的是哪一种玩家决策或感受？纸牌、骰子、轮次能否低成本测试它？哪些机制依赖实时操作，不能用纸面结果代替数字原型验证？",
+      "limits": "属于个人课堂记录。正文转引的论文及具体桌游分析尚未核验，不能作为原始学术证据。",
+      "use_status": "question_lead_only"
+    },
+    {
+      "id": "XHS-03",
+      "title": "把游戏创意变成可玩的样子：5分钟原型流程",
+      "authors": [
+        "全栈爱好者"
+      ],
+      "publisher": "小红书公开笔记",
+      "url": "https://www.xiaohongshu.com/explore/6915ded30000000004015346",
+      "publication_date": null,
+      "date_basis": "页面可见 2025-11-13。",
+      "accessed_on": "2026-10-23/2026-10-24",
+      "type": "community_self_report",
+      "coverage": "文字正文及 5/5 张图文。",
+      "evidence_locations": [
+        "浏览器可见公开页面；详见 xhs-research.md"
+      ],
+      "source_claim": "笔记把玩法拆成玩家动作、系统反馈与目标，先做输入、对象变化、计分和重玩；使用占位资源，并以计时或固定路线替代复杂行为，以便快速试验。",
+      "proposed_action": "本轮只验证哪一个假设？简化掉的系统会不会恰好决定玩法成立？玩家是否能理解选择、反馈并主动重试？",
+      "limits": "未展示可运行产物、计时记录或试玩结果。“5 分钟”只能视为作者的练习时间盒，不能作为完整开发估时；单人短试玩也不能证明乐趣或市场需求。",
+      "use_status": "question_lead_only"
+    },
+    {
+      "id": "XHS-04",
+      "title": "独立游戏参加游戏展会的经验复盘和建议指",
+      "authors": [
+        "四无"
+      ],
+      "publisher": "小红书公开笔记",
+      "url": "https://www.xiaohongshu.com/explore/6a72c5a70000000035016f2e",
+      "publication_date": null,
+      "date_basis": "页面可见 08-05，未显示年份。",
+      "accessed_on": "2026-10-23/2026-10-24",
+      "type": "community_self_report",
+      "coverage": "前 7/30 张图片，含封面；未读后 23 页，不推断全文结论。",
+      "evidence_locations": [
+        "浏览器可见公开页面；详见 xhs-research.md"
+      ],
+      "source_claim": "作者对比《白蛇之子》与另一项目的活动数据，区分展示、商店访问和后续转化；也提醒统计周期、产品阶段、素材与受众不同会影响比较。",
+      "proposed_action": "活动要增加曝光、吸引目标玩家，还是促成试玩？是否有访问、试玩和愿望单等后续数据？比较时的周期与入口是否一致？",
+      "limits": "未读取原始后台，两个项目也不构成可控实验。不能据此给出通用点击率标准，或断定某种题材、某场展会必然更好。",
+      "use_status": "partial_reading"
+    },
+    {
+      "id": "XHS-05",
+      "title": "独立游戏开发者们，别再参加gamejam了",
+      "authors": [
+        "喷喷Dvion"
+      ],
+      "publisher": "小红书公开笔记",
+      "url": "https://www.xiaohongshu.com/explore/6ab777d40000000018029bc8",
+      "publication_date": null,
+      "date_basis": "页面可见 09-26，未显示年份。",
+      "accessed_on": "2026-10-23/2026-10-24",
+      "type": "community_self_report",
+      "coverage": "完整文字正文。",
+      "evidence_locations": [
+        "浏览器可见公开页面；详见 xhs-research.md"
+      ],
+      "source_claim": "作者称自己的 Jam 原型被复制，维权挤占开发时间；正文也承认 Jam 对练手、社交和完成小项目仍有价值。可提取的问题是公开原型的范围、时机与证据保存。",
+      "proposed_action": "公开的是视频、可执行文件还是源码？素材授权、版本记录与首次公开时间是否保存？交流收益是否值得当前项目承担相应成本？",
+      "limits": "侵权经过、其他案例与法律判断未独立核验。不能从这篇自述推导出普遍退出 Game Jam 的建议，也不据此作法律结论。",
+      "use_status": "question_lead_only"
+    },
+    {
+      "id": "XHS-E01",
+      "title": "做了两年独立游戏，还是失败了",
+      "authors": [
+        "吗喽爱炫砂糖橘"
+      ],
+      "publisher": "小红书公开笔记",
+      "url": "https://www.xiaohongshu.com/explore/6aace481000000001103a0d3",
+      "publication_date": null,
+      "date_basis": "页面可见 09-18，未显示年份。",
+      "accessed_on": "2026-10-23/2026-10-24",
+      "type": "community_self_report",
+      "coverage": "完整文字正文及页面首屏公开评论。",
+      "evidence_locations": [
+        "浏览器可见公开页面；详见 xhs-research.md"
+      ],
+      "source_claim": "该复盘未给出可以独立核对的作品信息，本库不采用其销量、收入或失败归因。",
+      "proposed_action": "只记录核查范围，不采用未核实的事实与归因。",
+      "limits": "实质阅读但证据不足，保留为核查范围记录，不作为事实案例。",
+      "use_status": "excluded_as_case"
+    },
+    {
+      "id": "XHS-E02",
+      "title": "开发独立游戏的第二次失败",
+      "authors": [
+        "开发游戏的couple"
+      ],
+      "publisher": "小红书公开笔记",
+      "url": "https://www.xiaohongshu.com/explore/6ac73a90000000001403860b",
+      "publication_date": null,
+      "date_basis": "页面可见 10-08，未显示年份。",
+      "accessed_on": "2026-10-23/2026-10-24",
+      "type": "community_self_report",
+      "coverage": "标题、标签、封面和页面可见评论；没有读取视频叙述或完整字幕。",
+      "evidence_locations": [
+        "浏览器可见公开页面；详见 xhs-research.md"
+      ],
+      "source_claim": "未核验视频正文，不提取内容结论。",
+      "proposed_action": "只记录核查范围，不采用未核实的事实与归因。",
+      "limits": "不提取该视频的收入、销售、开发过程与因果结论，不计入实质阅读的 5 篇。",
+      "use_status": "metadata_only_not_content"
+    }
+  ]
+}

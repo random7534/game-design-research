@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "proposed_methods_not_personal_endorsements",
+  "candidates": [
+    {
+      "id": "C01",
+      "claim": "用体验到行为到规则的因果假设评审设计",
+      "source_ids": [
+        "D01"
+      ],
+      "conditions": "目标较清楚、需要比较方案时",
+      "limits": "纯感官探索也可先做体验样段",
+      "validation": "观察行为是否符合假设，再改规则或目标",
+      "status": "proposed"
+    },
+    {
+      "id": "C02",
+      "claim": "分别判断策略选择与角色表达的价值",
+      "source_ids": [
+        "D02",
+        "D07"
+      ],
+      "conditions": "含选择、对白或策略的作品",
+      "limits": "没有数值后果不自动无价值",
+      "validation": "记录理解、在乎程度、表达是否被后续保留",
+      "status": "proposed",
+      "source_support": {
+        "D02": "原文讨论情感决策的价值，为策略之外的价值提供视角。",
+        "D07": "提供叙事与游玩互相影响的项目案例，不直接证明共同结局有效。"
+      },
+      "inference_boundary": "角色表达与共同结局的安排是本库综合；当前作品是否有效仍须实际观察。"
+    },
+    {
+      "id": "C03",
+      "claim": "画资源转换并检查循环、单位与阶段",
+      "source_ids": [
+        "D03",
+        "D04"
+      ],
+      "conditions": "存在资源、成长或经济时",
+      "limits": "不要求所有作品增加货币与稀缺",
+      "validation": "计算边界并实际运行不同阶段策略",
+      "status": "proposed"
+    },
+    {
+      "id": "C04",
+      "claim": "教学验收看变化情境中的独立使用",
+      "source_ids": [
+        "D05"
+      ],
+      "conditions": "玩家需要掌握新操作或规则时",
+      "limits": "已有经验不同，教学路径可不同",
+      "validation": "记录提示后能否迁移，区分操作和理解问题",
+      "status": "proposed"
+    },
+    {
+      "id": "C05",
+      "claim": "关键叙事信息考虑发现顺序与遗漏补救",
+      "source_ids": [
+        "D06",
+        "R01"
+      ],
+      "conditions": "探索、调查或条件分支作品",
+      "limits": "可保留有意的未知与多义性",
+      "validation": "检查必需事实可达和玩家实际获知途径",
+      "status": "proposed"
+    },
+    {
+      "id": "C06",
+      "claim": "分别诊断节奏和难度",
+      "source_ids": [
+        "D08"
+      ],
+      "conditions": "存在持续压力与疲劳时",
+      "limits": "不照搬射击游戏的时间曲线",
+      "validation": "对照强度、间隔与恢复，只调整目标因素",
+      "status": "proposed"
+    },
+    {
+      "id": "C07",
+      "claim": "按最危险假设选择最低成本原型",
+      "source_ids": [
+        "PROD-01",
+        "XHS-02",
+        "XHS-03"
+      ],
+      "conditions": "需要决定是否扩张投入时",
+      "limits": "纸面验证不能证明动作手感或设备表现",
+      "validation": "原型中保留决定假设的变量，记录推翻条件",
+      "status": "proposed"
+    },
+    {
+      "id": "C08",
+      "claim": "用代表内容验证制作流程与实际产能",
+      "source_ids": [
+        "PROD-01",
+        "XHS-01"
+      ],
+      "conditions": "目标质量和内容量有较大不确定性时",
+      "limits": "极小项目可合并阶段，历史比例不通用",
+      "validation": "记录代表单元及下一单元的工时、返工和集成",
+      "status": "proposed"
+    },
+    {
+      "id": "C09",
+      "claim": "按风险分开规则状态、内容与表现",
+      "source_ids": [
+        "PROD-02",
+        "PROD-03",
+        "R02"
+      ],
+      "conditions": "存档、共享可变数据或结算出错时",
+      "limits": "小项目不必引入复杂通用框架",
+      "validation": "测试重复提交、实例隔离、恢复和表现一致",
+      "status": "proposed"
+    },
+    {
+      "id": "C10",
+      "claim": "把体验、自动检查、设备和发布证据分别报告",
+      "source_ids": [
+        "PROD-04",
+        "PROD-05",
+        "PROD-09",
+        "PROD-10"
+      ],
+      "conditions": "实施、交付与复盘时",
+      "limits": "不是要求每次研究都构建全部平台",
+      "validation": "核对同版本的产物、执行日志与远端状态",
+      "status": "proposed"
+    },
+    {
+      "id": "C11",
+      "claim": "按实际流程选择可访问性项并邀请相关玩家",
+      "source_ids": [
+        "PROD-06",
+        "PROD-07"
+      ],
+      "conditions": "存在文字、声音、输入等交互时",
+      "limits": "清单、模拟测试不等同通用认证",
+      "validation": "测试从开始到退出的障碍并复测修复",
+      "status": "proposed"
+    },
+    {
+      "id": "C12",
+      "claim": "AI生成按作品需要设置事实与行动边界",
+      "source_ids": [
+        "R03",
+        "R01"
+      ],
+      "conditions": "运行时AI参与行动、记忆或剧情时",
+      "limits": "即兴作品可允许生成事实，但要明确定义",
+      "validation": "测试猜想授证、泄密、重复结算、记忆冲突、超时与费用",
+      "status": "proposed"
+    }
+  ]
+}
