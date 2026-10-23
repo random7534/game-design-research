@@ -9,6 +9,7 @@
 | 在游戏任务中调用方法 | [game-design-development Skill](skills/game-design-development/SKILL.md) |
 | 先研究怎样策划玩法 | [玩法策划工作法](skills/game-design-development/references/gameplay-planning.md) |
 | 按问题学习玩法逻辑 | [知识地图](docs/knowledge-map.md) |
+| 按作品学习关卡与误导设计 | [《疑案追声》策划学习包](docs/case-studies/unheard/README.md) |
 | 检查原始出处与适用条件 | [来源卡](skills/game-design-development/references/sources.md) · [结构化来源表](skills/game-design-development/references/sources.json) |
 | 看一个具体设计推演 | [《雨夜送信》虚构例子](skills/game-design-development/references/worked-example.md) |
 | 审阅待验证方法 | [候选方法清单](docs/candidates.md) |
