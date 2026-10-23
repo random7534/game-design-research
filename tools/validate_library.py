@@ -33,6 +33,26 @@ def validate(root):
     if primary != sources['primary_source_count'] or community != sources['community_record_count']:
         errors.append('source counts do not match registry')
 
+    case_path = root / 'skills/game-design-development/references/case-observations.json'
+    cases = json.loads(case_path.read_text(encoding='utf-8'))['cases'] if case_path.exists() else []
+    case_ids = set()
+    for case in cases:
+        case_id = case.get('id')
+        if not case_id or case_id in case_ids:
+            errors.append(f'duplicate or missing case id: {case_id}')
+        case_ids.add(case_id)
+        for key in ('game', 'reviewed_on', 'version_scope', 'evidence_types',
+                    'observations', 'limits', 'public_verifiability', 'candidate_ids'):
+            if not case.get(key):
+                errors.append(f'{case_id}: missing {key}')
+        for source in case.get('public_sources', []):
+            url = urlsplit(source.get('url', ''))
+            if url.scheme != 'https' or not url.netloc:
+                errors.append(f'{case_id}: invalid public case source URL')
+            for key in ('title', 'author', 'published_on', 'accessed_on', 'coverage'):
+                if not source.get(key):
+                    errors.append(f'{case_id}: case source missing {key}')
+
     candidate_ids = set()
     for item in candidates['candidates']:
         cid = item.get('id')
@@ -45,9 +65,24 @@ def validate(root):
             errors.append(f'{cid}: personal endorsement does not belong in public registry')
         if item.get('status') == 'experimented' and not item.get('experiment_evidence'):
             errors.append(f'{cid}: experimented claim needs evidence')
+        if set(item.get('case_ids', [])) - case_ids:
+            errors.append(f'{cid}: unknown case references')
+        if item.get('case_ids') and not item.get('inference_boundary'):
+            errors.append(f'{cid}: case-derived method needs inference boundary')
         for key in ('claim','conditions','limits','validation'):
             if not item.get(key):
                 errors.append(f'{cid}: missing {key}')
+
+    by_candidate = {item.get('id'): item for item in candidates['candidates']}
+    for case in cases:
+        for cid in case.get('candidate_ids', []):
+            if cid not in by_candidate or case['id'] not in by_candidate[cid].get('case_ids', []):
+                errors.append(f"{case['id']}: inconsistent candidate link {cid}")
+    by_case = {case.get('id'): case for case in cases}
+    for item in candidates['candidates']:
+        for case_id in item.get('case_ids', []):
+            if case_id in by_case and item['id'] not in by_case[case_id].get('candidate_ids', []):
+                errors.append(f"{item['id']}: inconsistent case link {case_id}")
 
     files = [p for p in root.rglob('*') if p.is_file() and '.git' not in p.relative_to(root).parts]
     text_files = [p for p in files if p.suffix in ('.md','.json','.yaml','.yml')]
@@ -82,7 +117,8 @@ def validate(root):
                 if sid not in source_ids:
                     errors.append(f'{rel}: unknown cited source: {sid}')
     return {'ok': not errors,'primary_sources':primary,'community_records':community,
-            'candidates':len(candidate_ids),'text_files':len(text_files),'local_links':link_count,'errors':errors}
+            'candidates':len(candidate_ids),'case_observations':len(case_ids),
+            'text_files':len(text_files),'local_links':link_count,'errors':errors}
 
 if __name__ == '__main__':
     try:

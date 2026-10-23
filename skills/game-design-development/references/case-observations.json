@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-24",
+  "status": "research_observations_not_personal_endorsements",
+  "counting_rule": "案例记录与通用来源25项分开计数；本地复核不增加公开一手文献数量。",
+  "cases": [
+    {
+      "id": "CASE-U01",
+      "game": "Unheard / 疑案追声",
+      "reviewed_on": "2026-10-24",
+      "version_scope": "本地研究样本与2021年开发者文章；目录Build标记未由安装清单确认。原作功能与新辅助提案分开。",
+      "evidence_types": [
+        "developer_account",
+        "local_report_review",
+        "design_proposal"
+      ],
+      "observations": "开发者说明自由回放下要保留对原因的调查；本地改版提案区分已有材料的回访与自动推导真假，并为单条回访和双槽比较设置共同基础能力。",
+      "limits": "原作未逐关完整试听；新辅助未实现或试玩。开发者意图不能证明全部玩家体验，公开摘要不支持界面效果结论。",
+      "public_sources": [
+        {
+          "title": "疑案追声开发笔记上篇",
+          "url": "https://www.gcores.com/articles/132393",
+          "author": "NExTStudios",
+          "published_on": "2021-01-06",
+          "accessed_on": "2026-10-24",
+          "coverage": "正文关于新手教学、提示与线索入口；直接打开原文核对"
+        },
+        {
+          "title": "疑案追声开发笔记下篇",
+          "url": "https://www.gcores.com/articles/132391",
+          "author": "NExTStudios",
+          "published_on": "2021-01-07",
+          "accessed_on": "2026-10-24",
+          "coverage": "正文关于自由调查顺序及先知结果仍需查明原因；直接打开原文核对"
+        }
+      ],
+      "public_verifiability": "开发者文章可公开核对；辅助效果尚无实验。原始游戏文件与本地审计不分发。",
+      "candidate_ids": [
+        "C18"
+      ]
+    },
+    {
+      "id": "CASE-S01",
+      "game": "Sultan's Game / 苏丹的游戏",
+      "reviewed_on": "2026-10-24",
+      "version_scope": "2026-10-23本地样本快照，后续报告核读于2026-10-24；未确认对应官方发行版本。",
+      "evidence_types": [
+        "local_rule_model_review",
+        "local_static_record_review"
+      ],
+      "observations": "在已限定的普通骰模型里，提高投入可提高成功率或缩短期望历时，却可能提高总人力占用。核读了精确分数和模型假设。",
+      "limits": "局部模型排除部分特殊规则；本轮未重跑原作或完整测试。不能证明全局最优、剧情效果或玩家偏好。",
+      "public_sources": [],
+      "public_verifiability": "原始本地证据未公开，不能视为外部可独立复核的原作规则说明；方法页另附可复算的虚构例子。",
+      "candidate_ids": [
+        "C19"
+      ]
+    },
+    {
+      "id": "CASE-S02",
+      "game": "Sultan's Game / 苏丹的游戏",
+      "reviewed_on": "2026-10-24",
+      "version_scope": "同CASE-S01本地快照；仅核对某条家宅仪式的入口、成功结果与已有痕迹分支。",
+      "evidence_types": [
+        "local_static_record_review"
+      ],
+      "observations": "局部配置记录支持成功写入人物痕迹，并在同路径后续条件中读取，改变该路径的结果。",
+      "limits": "不能推成所有任务或人物全局禁用；没有证明这种限制提高乐趣，也没有完整运行验证。",
+      "public_sources": [],
+      "public_verifiability": "保留自主摘要，原始配置、私有路径与角色创意不公开；通用迁移仍是候选。",
+      "candidate_ids": [
+        "C20"
+      ]
+    },
+    {
+      "id": "CASE-T01",
+      "game": "Slay the Spire 2",
+      "reviewed_on": "2026-10-24",
+      "version_scope": "本地v0.100.0，标记de630ced；仅核对消耗/抽牌、费用修正与出牌触发等局部实现及改造评审。",
+      "evidence_types": [
+        "local_static_analysis",
+        "design_proposal"
+      ],
+      "observations": "局部实现存在消耗与收益联动、费用修正与实际出牌处理时点的区别。一个新能力候选因成本可变为收益而在纸面评审中被改写。",
+      "limits": "新能力没有实装或平衡试玩；原作局部代码不能证明提案所有边界均正确。共享敌人的组合覆盖仍是验证计划。",
+      "public_sources": [],
+      "public_verifiability": "不分发源码、角色设定或完整改造方案；读者只能将本条视为来源范围透明的研究摘要。",
+      "candidate_ids": [
+        "C21"
+      ]
+    },
+    {
+      "id": "CASE-P01",
+      "game": "Palworld / 幻兽帕鲁",
+      "reviewed_on": "2026-10-24",
+      "version_scope": "本地0.7.3.90464，Steam build 22461598；数据、设施筛选及材料修正局部指令。",
+      "evidence_types": [
+        "local_static_analysis",
+        "local_data_cross_check_review"
+      ],
+      "observations": "解锁、设施能力筛选、材料与工作/容器约束属于不同层；材料倍率的逐份处理与整单处理须区分。核读新功能报告和局部字段/指令，旧手册的未确认状态未直接沿用。",
+      "limits": "原生订单调用链只覆盖局部；运行、联网、失败恢复和实际瓶颈未经本轮验证。静态依赖不等于玩家体验。",
+      "public_sources": [],
+      "public_verifiability": "仅发布抽象方法和独立虚构演算，原始数据与机器码不公开。",
+      "candidate_ids": [
+        "C22"
+      ]
+    }
+  ]
+}

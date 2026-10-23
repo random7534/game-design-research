@@ -1,6 +1,6 @@
 # 候选方法清单
 
-下面 17 条是可审阅、可试验的方法。它们保留出处与边界，不代表用户已经认可。个人认可记录放在私有台账，不提交到公网库；认可某条的一部分时只采纳该部分。
+下面 22 条是可审阅、可试验的方法。它们保留出处与边界，不代表用户已经认可。个人认可记录放在私有台账，不提交到公网库；认可某条的一部分时只采纳该部分。
 
 ## C01 · 用体验到行为到规则的因果假设评审设计
 
@@ -139,3 +139,48 @@
 - 限制：局部优势和终局不必始终公平，不机械凑反制层数。
 - 怎样试：对照不同距离、时机和位置，记录实际可行回应与拖局。
 - 状态：外部候选方法，未自动登记个人认可或项目成效。
+
+## C18 · 信息辅助分别验证找回材料与独立判断
+
+- 案例：CASE-U01，见[案例证据表](../skills/game-design-development/references/case-observations.json)；[方法与反例](../skills/game-design-development/references/case-derived-planning.md)。
+- 背景来源：D06、R01，见[来源卡](../skills/game-design-development/references/sources.md)。这些框架不直接证明案例机制或迁移效果。
+- 适用：以发现、辨认、因果理解为主要体验的调查与叙事。
+- 限制：辅助可按无障碍或明确模式改变信息范围；固定叙事顺序不必任意回放。
+- 怎样试：固定可得信息与基础工具，观察定位、解释和主动核查，控制已知答案影响。
+- 状态：候选方法；局部规则证据不等同方法效果，未登记个人认可。
+
+## C19 · 在有限期限内分别比较成功机会、现金与人员占用
+
+- 案例：CASE-S01，见[案例证据表](../skills/game-design-development/references/case-observations.json)；[方法与反例](../skills/game-design-development/references/case-derived-planning.md)。
+- 背景来源：D03、D04，见[来源卡](../skills/game-design-development/references/sources.md)。这些框架不直接证明案例机制或迁移效果。
+- 适用：人员和时间在多个任务间竞争的经营、战术或派遣。
+- 限制：独立重试是假设；随机相关、资格变化或不可重试时重建状态树。
+- 怎样试：核对单位、截止前可执行次数、即时余额与替代任务，再比较边际投入。
+- 状态：候选方法；局部规则证据不等同方法效果，未登记个人认可。
+
+## C20 · 将一次行动对后续可用办法的改变纳入连续推演
+
+- 案例：CASE-S02，见[案例证据表](../skills/game-design-development/references/case-observations.json)；[方法与反例](../skills/game-design-development/references/case-derived-planning.md)。
+- 背景来源：R02、D02，见[来源卡](../skills/game-design-development/references/sources.md)。这些框架不直接证明案例机制或迁移效果。
+- 适用：历史、承诺、痕迹或限次使用影响未来行动时。
+- 限制：局部路径限制不等于全局禁用；允许稳定重复的作品不必添加消耗。
+- 怎样试：执行第一轮后重算第二轮资格，检查替代办法及恢复机制是否无成本刷新。
+- 状态：候选方法；局部规则证据不等同方法效果，未登记个人认可。
+
+## C21 · 将代价触发的收益和行动触发口径一并评审
+
+- 案例：CASE-T01，见[案例证据表](../skills/game-design-development/references/case-observations.json)；[方法与反例](../skills/game-design-development/references/case-derived-planning.md)。
+- 背景来源：G03、D03，见[来源卡](../skills/game-design-development/references/sources.md)。这些框架不直接证明案例机制或迁移效果。
+- 适用：组合卡牌、连锁技能、资源转换或首次/下次行动机制。
+- 限制：强协同可以保留；自动动作与生成实体是否参与由玩法决定。
+- 怎样试：比较实际放弃与连锁收益，推演预览取消、手动/自动、复制/生成及重置时点。
+- 状态：候选方法；局部规则证据不等同方法效果，未登记个人认可。
+
+## C22 · 沿生产约束和上下游依赖选择改动位置
+
+- 案例：CASE-P01，见[案例证据表](../skills/game-design-development/references/case-observations.json)；[方法与反例](../skills/game-design-development/references/case-derived-planning.md)。
+- 背景来源：D04、D03，见[来源卡](../skills/game-design-development/references/sources.md)。这些框架不直接证明案例机制或迁移效果。
+- 适用：解锁、设施、材料、工作与储存共同约束的生产游戏。
+- 限制：静态关系不能证明实际瓶颈；效率改善无需声称增加策略。
+- 怎样试：核对每份/整单与取整，比较局部和上游改动，观察断料、等待、满仓和玩家选择。
+- 状态：候选方法；局部规则证据不等同方法效果，未登记个人认可。

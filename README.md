@@ -13,6 +13,7 @@
 | 检查原始出处与适用条件 | [来源卡](skills/game-design-development/references/sources.md) · [结构化来源表](skills/game-design-development/references/sources.json) |
 | 看一个具体设计推演 | [《雨夜送信》虚构例子](skills/game-design-development/references/worked-example.md) |
 | 审阅待验证方法 | [候选方法清单](docs/candidates.md) |
+| 将作品分析转成可检验的策划经验 | [跨案例方法](skills/game-design-development/references/case-derived-planning.md) · [案例证据范围](skills/game-design-development/references/case-observations.json) |
 | 社区经验与读取范围 | [小红书补充研究](skills/game-design-development/references/community-notes.md) |
 | 区分外部材料与个人认可 | [知识采纳规则](skills/game-design-development/references/knowledge-adoption.md) |
 | 查看本 Skill 如何验证 | [验证记录](docs/validation.md) |
@@ -24,6 +25,8 @@
 规则状态、系统数值、叙事与证据支持玩法落实；工程生产、设备和发布是按需参考。运行时 AI 也是可选分支，需要说明它改变了什么可玩的行动和结果。
 
 首版核读 18 项一手资料，另补充 ink、游戏程序更新模式与生成式 Agent 论文，本轮补读 Nintendo、Rosewater 与 Sirlin 的 4 项玩法资料，累计 25 项一手来源。小红书阅读 5 篇实质内容（其中1篇证据不足已排除）、1篇部分图文、1篇视频元数据；覆盖与未核验项逐篇记录。来源互相补充，不以条数作为结论可靠性的评分。
+
+本轮另核读四款作品的项目分析，新增 5 条跨案例候选，候选总数为 22。局部规则、有限模型、开发者说明与待测提案分别记录；案例证据不并入上述通用文献计数。没有新增个人认可或真实玩家效果记录。
 
 没有覆盖所有类型的实战细节。多人网络同步、反作弊、实时战斗、3D美术管线、主机认证、发行预算和长期经济需要按具体项目继续研究。旧文章只借用仍有解释力的方法；接口和平台规则在实际使用时重新核对。
 

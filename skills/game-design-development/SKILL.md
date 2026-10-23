@@ -25,6 +25,7 @@ description: 优先处理游戏玩法策划：设计玩家行动、玩法循环�
 | 体验、选择、教学、手感或节奏出了什么问题 | [design-decisions.md](references/design-decisions.md) |
 | 状态、数值、剧情证据、生成式AI | [systems-narrative-ai.md](references/systems-narrative-ai.md) |
 | 用试玩检查设计假设 | [playtest-diagnostics.md](references/playtest-diagnostics.md) |
+| 从作品分析提炼方法、评审信息辅助/派遣/连锁成本/生产改动 | [case-derived-planning.md](references/case-derived-planning.md) |
 | 用户要求工程实施、生产计划、导出或发布 | [production.md](references/production.md) |
 | 搜集外部观点、判断用户是否认可、更新知识库 | [knowledge-adoption.md](references/knowledge-adoption.md) |
 | 核实某个方法的出处和局限 | [sources.md](references/sources.md) |

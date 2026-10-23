@@ -207,6 +207,86 @@
       "limits": "局部优势和终局不必始终公平，不机械凑反制层数",
       "validation": "对照不同距离、时机和位置，记录实际可行回应与拖局",
       "status": "proposed"
+    },
+    {
+      "id": "C18",
+      "claim": "信息辅助分别验证找回材料与独立判断",
+      "source_ids": [
+        "D06",
+        "R01"
+      ],
+      "case_ids": [
+        "CASE-U01"
+      ],
+      "conditions": "以发现、辨认、因果理解为主要体验的调查与叙事",
+      "limits": "辅助可按无障碍或明确模式改变信息范围；固定叙事顺序不必任意回放",
+      "validation": "固定可得信息与基础工具，观察定位、解释和主动核查，控制已知答案影响",
+      "status": "proposed",
+      "inference_boundary": "source_ids提供背景框架；case_ids记录本次局部观察或提案。通用方法为本库综合，尚无跨项目玩家效果验证。"
+    },
+    {
+      "id": "C19",
+      "claim": "在有限期限内分别比较成功机会、现金与人员占用",
+      "source_ids": [
+        "D03",
+        "D04"
+      ],
+      "case_ids": [
+        "CASE-S01"
+      ],
+      "conditions": "人员和时间在多个任务间竞争的经营、战术或派遣",
+      "limits": "独立重试是假设；随机相关、资格变化或不可重试时重建状态树",
+      "validation": "核对单位、截止前可执行次数、即时余额与替代任务，再比较边际投入",
+      "status": "proposed",
+      "inference_boundary": "source_ids提供背景框架；case_ids记录本次局部观察或提案。通用方法为本库综合，尚无跨项目玩家效果验证。"
+    },
+    {
+      "id": "C20",
+      "claim": "将一次行动对后续可用办法的改变纳入连续推演",
+      "source_ids": [
+        "R02",
+        "D02"
+      ],
+      "case_ids": [
+        "CASE-S02"
+      ],
+      "conditions": "历史、承诺、痕迹或限次使用影响未来行动时",
+      "limits": "局部路径限制不等于全局禁用；允许稳定重复的作品不必添加消耗",
+      "validation": "执行第一轮后重算第二轮资格，检查替代办法及恢复机制是否无成本刷新",
+      "status": "proposed",
+      "inference_boundary": "source_ids提供背景框架；case_ids记录本次局部观察或提案。通用方法为本库综合，尚无跨项目玩家效果验证。"
+    },
+    {
+      "id": "C21",
+      "claim": "将代价触发的收益和行动触发口径一并评审",
+      "source_ids": [
+        "G03",
+        "D03"
+      ],
+      "case_ids": [
+        "CASE-T01"
+      ],
+      "conditions": "组合卡牌、连锁技能、资源转换或首次/下次行动机制",
+      "limits": "强协同可以保留；自动动作与生成实体是否参与由玩法决定",
+      "validation": "比较实际放弃与连锁收益，推演预览取消、手动/自动、复制/生成及重置时点",
+      "status": "proposed",
+      "inference_boundary": "source_ids提供背景框架；case_ids记录本次局部观察或提案。通用方法为本库综合，尚无跨项目玩家效果验证。"
+    },
+    {
+      "id": "C22",
+      "claim": "沿生产约束和上下游依赖选择改动位置",
+      "source_ids": [
+        "D04",
+        "D03"
+      ],
+      "case_ids": [
+        "CASE-P01"
+      ],
+      "conditions": "解锁、设施、材料、工作与储存共同约束的生产游戏",
+      "limits": "静态关系不能证明实际瓶颈；效率改善无需声称增加策略",
+      "validation": "核对每份/整单与取整，比较局部和上游改动，观察断料、等待、满仓和玩家选择",
+      "status": "proposed",
+      "inference_boundary": "source_ids提供背景框架；case_ids记录本次局部观察或提案。通用方法为本库综合，尚无跨项目玩家效果验证。"
     }
   ]
 }
