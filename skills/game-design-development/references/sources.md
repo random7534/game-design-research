@@ -255,3 +255,39 @@
 - 原意或可见内容：未核验视频正文，不提取内容结论。
 - 本库建议：只记录核查范围，不采用未核实的事实与归因。
 - 限制：不提取该视频的收入、销售、开发过程与因果结论，不计入实质阅读的 5 篇。
+
+## G01 · Ask the Developer Vol. 11, Super Mario Bros. Wonder — Chapter 1
+
+- 来源：[Nintendo UK](https://www.nintendo.com/en-gb/News/2023/October/Ask-the-Developer-Vol-11-Super-Mario-Bros-Wonder-Chapter-1-2460393.html)；作者：Takashi Tezuka、Shiro Mouri、Koichi Hayashida、Masanobu Sato、Koji Kondo。
+- 日期：2023-10-17；article header: 17/10/2023。访问：2026-10-24。
+- 读取：玩法构想、机制原型、惊喜与愉悦、通常规则与变化反馈；证据位置：Chapter 1: developer direction and hidden surprises questions；Tezuka: at least one surprising or delightful element per course；Hayashida: idea-sharing session, bending pipe prototype, Wonder prototype meetings；Sato: trust in normal pipe behavior and the Wonder effect。
+- 原意：团队以原型探索关卡变化带来的惊喜，并通过通常规则与奇异变化的区分维护玩家理解。
+- 本库建议：把点子写成可操作变化，比较规则变体，保留产生趣味的部分并呈现新规则生效的迹象。
+- 限制：惊喜无需转化为策略或成长；不能照搬无限定开发期限与大量创意的预算条件。
+
+## G02 · New World Order
+
+- 来源：[Wizards of the Coast / Making Magic](https://magic.wizards.com/en/news/making-magic/new-world-order-2011-12-05)；作者：Mark Rosewater。
+- 日期：2011-12-05；article header: Dec 5, 2011。访问：2026-10-24。
+- 读取：理解复杂度、盘面复杂度、策略复杂度、规则负担分配；证据位置：A Complex Problem: Comprehension Complexity, Board Complexity, Strategic Complexity；Common Knowledge: rarity and complexity allocation；A Whole New World: bookkeeping and incentives。
+- 原意：理解文字、追踪交互和策略运用属于不同复杂度；文字简明不保证局面易懂，复杂度应有用途与分配。
+- 本库建议：对同一玩法分别检查能否读懂、能否跟踪、能否灵活运用，优先减少无趣记账与例外。
+- 限制：稀有度方案依赖 Magic 环境；策略不是所有游戏的主要价值；原文图形为示意，不是数据。
+
+## G03 · Living in Synergy
+
+- 来源：[Wizards of the Coast / Making Magic](https://magic.wizards.com/en/news/making-magic/living-synergy-2013-02-25)；作者：Mark Rosewater。
+- 日期：2013-02-25；article header: Feb 25, 2013。访问：2026-10-24。
+- 读取：构件组合、机制依赖、多种解法、交叉用途、解题与发现；证据位置：Synergy Hides Complexity；Synergy Increases Skill and Strategy；Synergy Whiz: Build Dependencies Into the Structure；Create Answers for Your Dependencies；Crisscross Your Solutions；Layer Your Solutions；Create Resources That Can Be Harnessed。
+- 原意：从机制需求创造多种解法，并让解法跨机制复用，可以形成协同与发现；复杂度不与技巧简单成正比。
+- 本库建议：为玩法需求设计不同办法，以构件和情境的小表检查新用途、重复与无用组合；谜题可逆推巧思条件。
+- 限制：组合增加仍须检查理解负担和唯一最优解；不据其总体观点认定所有游戏都需要技能成长。
+
+## G04 · Balancing Multiplayer Games, Part 2: Viable Options
+
+- 来源：[Sirlin.Net](https://www.sirlin.net/articles/balancing-multiplayer-games-part-2-viable-options)；作者：David Sirlin。
+- 日期：2014-08-15；article header: August 15, 2014。访问：2026-10-24。
+- 读取：行动与回应、反制、支配行动、功能差异、局部与整体平衡；证据位置：Yomi Layer 3: Honda/Ken example and generalized options；Local vs. Global Balance；Checkmate Situations；Lame-duck Situations；Explore the Design Space；Wheat from the Chaff。
+- 原意：行动、反制和变招可形成相互制约的可行选项；局部不必公平，但漫长的胜负已定阶段会削弱体验。
+- 本库建议：对高频强行动检查有效条件、识别迹象、回应代价和变招弱点，并通过距离、位置、时机等功能差异扩大实际用途。
+- 限制：面向竞争玩法；不机械要求三层反制，不要求局部与终局处处机会相等，不推广为全部游戏的目标。

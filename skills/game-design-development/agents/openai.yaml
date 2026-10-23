@@ -1,4 +1,4 @@
 interface:
-  display_name: "游戏设计与开发"
-  short_description: "从玩家体验到规则、原型、制作和发布，依据来源与实际测试推进游戏开发"
-  default_prompt: "使用 $game-design-development 推进当前游戏，先判断最需要验证的设计或制作问题，再完成可评审的结果。"
+  display_name: "游戏玩法策划"
+  short_description: "设计玩家行动、决策取舍、玩法循环与机制组合，用具体游玩过程检验方案"
+  default_prompt: "使用 $game-design-development 策划或改进当前玩法，写清玩家怎样玩、选择和机制怎样产生变化，以及最需要验证的问题。"
