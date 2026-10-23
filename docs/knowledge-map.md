@@ -35,6 +35,9 @@
 
 - [关卡与探索](../skills/game-design-development/references/level-design.md)：从规则生成问题，区分通关条件、知识与线索。
 - [动作手感](../skills/game-design-development/references/action-feel.md)：输入保留、取消关系、意图误判与信号优先级。
+- [战斗遭遇](../skills/game-design-development/references/combat-encounters.md)：敌人职责、场地、时间重叠和增援条件。
+- [多人协作](../skills/game-design-development/references/cooperative-play.md)：两人的信息、行动、协商、判断权与缺席。
+- [长期成长](../skills/game-design-development/references/long-term-progression.md)：能力与资格、跨章保留、生产瓶颈及长流程验证。
 - [动机与奖励](../skills/game-design-development/references/motivation-rewards.md)：奖励的实际作用、自定目标及满意结束。
 - [原型与失败成本](../skills/game-design-development/references/prototype-and-challenge.md)：保留待测变量，分开挑战与重试负担。
 

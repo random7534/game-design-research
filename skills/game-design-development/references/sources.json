@@ -2,7 +2,7 @@
   "schema_version": 1,
   "compiled_on": "2026-10-24",
   "status": "external_sources_and_proposed_synthesis",
-  "primary_source_count": 39,
+  "primary_source_count": 50,
   "community_record_count": 7,
   "sources": [
     {
@@ -1088,6 +1088,271 @@
       "source_claim": "该图像标注研究中，游戏化元素增加产出数量，未检出胜任感或内在动机的显著变化。",
       "proposed_action": "将产出数量和体验效果分开评估；只作摘要级补充，不据此制定奖励的普遍规律。",
       "limits": "样本量、排除规则、效应量和具体实现本轮未从正文核实；非游戏任务，不能直接外推娱乐游戏或解释无显著差异为完全无影响。"
+    },
+    {
+      "id": "E01",
+      "title": "Creating Conflict: Combat Design for AAA Action Games",
+      "authors": [
+        "Michael Barclay",
+        "Sam Howels",
+        "Pete Ellis"
+      ],
+      "publisher": "GDC Europe 2016 / GDC Vault",
+      "url": "https://media.gdcvault.com/gdceurope2016/presentations/Ellis_Peter_CreatingConflictCombat.pdf",
+      "publication_date": "2016-08-15",
+      "date_basis": "作者 Michael Barclay 的 2016 年 8 月博客列出本讲座日期为 Monday, August 15；GDC Vault 分类为 GDC Europe 2016。https://mikebarclay.co.uk/2016/08/ 。日期指讲座举行日，不主张 PDF 上传于同日。",
+      "accessed_on": "2026-10-24",
+      "type": "developer_talk",
+      "coverage": "核读官方 121 页 PDF 中带讲者注释的目标、环境几何、敌人位置及开放世界遭遇相关章节；未观看视频，未逐页核验所有图像。",
+      "evidence_locations": [
+        "PDF 零基页 P9–15：目标与遭遇背景",
+        "P33–50、P66–89：几何、掩体、移动、分散射线与进场点",
+        "P96–106：预设及系统生成遭遇，开放进入方向与环境真实性"
+      ],
+      "source_claim": "敌人类型以外，遮挡、掩体与射线分布也改变战斗难度；开放场地需要考虑玩家自行选择的接近方式。",
+      "proposed_action": "在遭遇规格中并列写目标、敌人职责、空间关系与进入方式；改变地图后重新检查原有回应是否仍可用。",
+      "limits": "开发者经验和作品例证，主要面向叙事动作/射击；没有可直接跨游戏复用的难度公式。对其他作品的评论不能当成其作者自述。"
+    },
+    {
+      "id": "E02",
+      "title": "Evolving God of War's Combat for a New Perspective",
+      "authors": [
+        "Mihir Sheth"
+      ],
+      "publisher": "Santa Monica Studio / GDC 2019",
+      "url": "https://media.gdcvault.com/gdc2019/presentations/Sheth_Mihir_EvolvingCombat.pdf",
+      "publication_date": "2019",
+      "date_basis": "官方 GDC 2019 讲稿路径与讲者介绍；本次没有核得精确发表日期。",
+      "accessed_on": "2026-10-24",
+      "type": "developer_talk",
+      "coverage": "核读官方 182 页 PDF 带讲者注释的 Tracking Enemies 章节及此前镜头目标说明，重点 P35–83；未观看嵌入视频，未独立复现其试玩。",
+      "evidence_locations": [
+        "PDF 零基页 P15–32：近距离镜头与进攻目标的冲突",
+        "P36–43：aggression score 与有限 token 池",
+        "P49–75：站位权重方案的失败、区域约束与屏幕内外位置",
+        "P71：aggression 和是否实际攻击为不同概念",
+        "P76–83：屏外危险提示及误读"
+      ],
+      "source_claim": "有限 aggression tokens 控制攻击者资格；站位约束与屏外信息支持玩家建立战场位置认知。",
+      "proposed_action": "分开检查在场人数、攻击资格和已在途危险；威胁重叠需要依据具体动作与回应窗口验证。",
+      "limits": "适配该作近距离镜头与一对多进攻目标的案例；token 示例数字不构成通用预算，同时攻击限制也非所有类型的必要设计。作者报告的内部试玩未附原始数据。"
+    },
+    {
+      "id": "E03",
+      "title": "Inside Infinite – October 2021: Character Study",
+      "authors": [
+        "343 Industries Character Team",
+        "Steve Dyck",
+        "Bryan Repka",
+        "JuanCarlos Larrea",
+        "Nick Avallone"
+      ],
+      "publisher": "Halo Waypoint / 343 Industries",
+      "url": "https://www.halowaypoint.com/news/inside-infinite-october-2021",
+      "publication_date": "2021-10",
+      "date_basis": "文章标题明确 October 2021；当前页面仅显示相对日期，本次不填写未经一手页面确认的具体日。",
+      "accessed_on": "2026-10-24",
+      "type": "developer_interview",
+      "coverage": "核读官方访谈 Character Study 章节，未将后半篇 UI 与临近上市宣传当作战斗效果研究。",
+      "evidence_locations": [
+        "Character Study：Create compelling AI Combatants 与 Player Comprehension",
+        "角色从想法到实现的问答：缺失职责、纸面方案、原型与返工",
+        "开放战斗与新装备问答：同一 Grappleshot 对不同敌人的回应差异",
+        "Skimmer 问答：悬浮高度与视线负担取舍"
+      ],
+      "source_claim": "团队按战斗需要寻找敌人职责，检验玩家能否辨认目标优先级，并在粗原型失败时返回方案阶段。",
+      "proposed_action": "新增敌人前说明它改变的玩家选择，再测试单独与混合配置；辨识效果要在实际屏幕距离和场景中检查。",
+      "limits": "上市前开发团队自述，未提供受试人数或对照数据；角色设计流程不证明当前版本所有遭遇均有效，也不要求每个敌人职责绝不重复。"
+    },
+    {
+      "id": "K01",
+      "title": "Understanding and Evaluating Cooperative Games",
+      "authors": [
+        "Magy Seif El-Nasr",
+        "Bardia Aghabeigi",
+        "David Milam",
+        "Mona Erfani",
+        "Beth Lameman",
+        "Hamid Maygoli",
+        "Sang Mah"
+      ],
+      "publisher": "ACM CHI 2010; author-uploaded full text on ResearchGate",
+      "url": "https://www.researchgate.net/publication/221516170_Understanding_and_evaluating_cooperative_games",
+      "publication_date": "2010-04",
+      "date_basis": "论文首页 CHI 2010 日期为 2010-04-10 至 15；ResearchGate 标注 April 2010，未推定精确出版日。",
+      "accessed_on": "2026-10-24",
+      "type": "primary_research",
+      "coverage": "核读作者上传的全文转写中模式、Study Design、CPM定义、Results方法和等待/妨碍结果、Conclusion；未逐项复算统计，未观看原始实验视频。",
+      "evidence_locations": [
+        "Study Design 与 Cooperative Performance Metrics",
+        "Results: Inter-rater Kappa for Metrics",
+        "Results: Waited for Each Other; Got in Each Others’ Way",
+        "Conclusion"
+      ],
+      "source_claim": "研究先分析14款合作游戏，再观察60名儿童、25组熟人/家庭组合玩4款游戏；把共同策略、帮助、等待和互相妨碍等事件作视频编码。",
+      "proposed_action": "按合作事件及原因记录过程，并分别询问每位玩家；不只统计胜率、输入或聊天次数。",
+      "limits": "各游戏同时有多种差异，属于作品比较及解释性编码，不是孤立机制的因果实验；两段录像的编码者一致性不能证明跨类型普适。正文年龄范围写法不一致，摘要只称儿童样本。"
+    },
+    {
+      "id": "K02",
+      "title": "Exploring Asymmetric Roles in Mixed-Ability Gaming",
+      "authors": [
+        "David Gonçalves",
+        "André Rodrigues",
+        "Mike L. Richardson",
+        "Alexandra A. de Sousa",
+        "Michael J. Proulx",
+        "Tiago Guerreiro"
+      ],
+      "publisher": "CHI 2021; authors’ arXiv version",
+      "url": "https://arxiv.org/html/2101.05703v1",
+      "publication_date": "2021-01-14",
+      "date_basis": "所读 arXiv v1 首页日期；论文另标 CHI 2021，不能把预印本日期称为正式会议出版日。",
+      "accessed_on": "2026-10-24",
+      "type": "primary_research",
+      "coverage": "核读第3—7节概念、原型、招募/程序/问卷、结果与限制；摘要和引言辅助定位；未运行原型，未下载受限补充材料。",
+      "evidence_locations": [
+        "5.1 Participants; 5.2 Procedure; 5.3 Online Questionnaires",
+        "6.3 Competence & Autonomy; 6.5 Information asymmetry; 6.6 Inherent Inaccessibility",
+        "7.2 Interdependence with ability-based roles; 7.4 Tensions; 7.5 Limitations"
+      ],
+      "source_claim": "26人组成13对16—53岁熟人，一人视障一人明眼，远程体验两款原型。紧密分工获得正面贡献感，也出现经验差距、等待、信息稀疏和部分角色不可选的问题。",
+      "proposed_action": "分别检查依赖与自主判断，测试角色压力和沟通节奏，并明确哪些玩家组合能参加。",
+      "limits": "探索性混合方法研究，两款游戏在题材、任务和界面上多处不同；不能把差异归因单一依赖参数，不代表陌生队伍、所有障碍类型或长期留存。角色难度自定义是作者建议，并非本研究已验证的干预。"
+    },
+    {
+      "id": "K03",
+      "title": "The Challenges of Balancing an Early Access Game — Making a 1-4 player co-op game",
+      "authors": [
+        "Mikkel (Game Director, Ghost Ship Games)"
+      ],
+      "publisher": "Ghost Ship Games / Deep Rock Galactic official website",
+      "url": "https://www.deeprockgalactic.com/updatesold",
+      "publication_date": null,
+      "date_basis": "官方旧更新合集该篇未显示独立发布日期；正文为更新18后、19开发中的历史阶段，不推定为现行规则。",
+      "accessed_on": "2026-10-24",
+      "type": "developer_primary_account",
+      "coverage": "核读该篇的 Making a 1-4 player co-op game 小节及相邻背景、署名；未把整个更新合集称为全部核读。",
+      "evidence_locations": [
+        "The Challenges of Balancing an Early Access Game",
+        "Making a 1-4 player co-op game; paragraphs beginning In the early days / To assist solo players",
+        "Mikkel / Game Director / Ghost Ship Games signature"
+      ],
+      "source_claim": "开发者说明按人数缩放敌人，并用 Bosco 为单人补充采矿、战斗和救援帮助；单人任务仍需要另行考虑。",
+      "proposed_action": "人数改变时查缺失的行动能力、信息和同时执行要求；区分规则补偿与单纯数值缩放。",
+      "limits": "历史开发者自述，没有对照玩家实验；不代表当前版本，也不能据此规定所有游戏必须提供单人或随时加入。"
+    },
+    {
+      "id": "K04",
+      "title": "Keep Talking and Nobody Explodes — Official game description",
+      "authors": [
+        "Steel Crate Games"
+      ],
+      "publisher": "Steel Crate Games",
+      "url": "https://keeptalkinggame.com/",
+      "publication_date": null,
+      "date_basis": "官方产品页面无独立发表日期；页脚版权年份不当发表日期。",
+      "accessed_on": "2026-10-24",
+      "type": "official_game_rules_description",
+      "coverage": "核读首页 About、角色可见信息、Mission & Free Play 等说明；未观看宣传视频，未逐页阅读完整拆弹手册。",
+      "evidence_locations": [
+        "About",
+        "You’re alone in a room with a bomb; Experts cannot see the bomb",
+        "Mission & Free Play Modes"
+      ],
+      "source_claim": "拆弹者能看装置，专家持有手册且看不到装置，双方沟通解决问题；自由模式允许配置炸弹。",
+      "proposed_action": "写清各人知道和能改变的内容，再检查交流是否改变解题行动。",
+      "limits": "官方介绍支持规则构成，不证明沟通质量或可迁移效果；纯粹遮蔽资料可能只增加转述负担。"
+    },
+    {
+      "id": "H01",
+      "title": "Hidden Arcana: Mastering the Maguuma",
+      "authors": [
+        "Anatoli Ingram",
+        "ArenaNet Masteries team (interviewees)"
+      ],
+      "publisher": "ArenaNet / GuildWars2.com",
+      "url": "https://www.guildwars2.com/en/news/hidden-arcana-mastering-the-maguuma-2/",
+      "publication_date": null,
+      "date_basis": "当前读取页正文未显示发布日期；不根据抓取时间推定。",
+      "accessed_on": "2026-10-24",
+      "type": "developer_interview",
+      "coverage": "核读完整文章正文 Run On for a Long Time 与 Masterminding Masteries；未核验后续版本和玩家长期效果。",
+      "evidence_locations": [
+        "Run On for a Long Time: contextual abilities, gliding and mushroom bouncing",
+        "Masterminding Masteries: Crystin Cox on tangible changes to play"
+      ],
+      "source_claim": "Masteries 的设计把能力与具体内容结合，滑翔等能力改变旅行方式；设计负责人强调成长应对实际游玩产生可感知影响。",
+      "proposed_action": "为解锁同时编写获得前后的行动差异及可使用场景，检验用途和资格，避免只列成长数值。",
+      "limits": "官方开发设计说明，不是对照实验。关于旧内容长期相关、避免膨胀的表述属于目标，不证明所有版本已实现，也不证明横向成长普遍优于纵向成长。"
+    },
+    {
+      "id": "H02",
+      "title": "Friday Facts #376 - Research and Technology",
+      "authors": [
+        "kovarex",
+        "V453000",
+        "Klonan"
+      ],
+      "publisher": "Wube Software / Factorio",
+      "url": "https://www.factorio.com/blog/post/fff-376",
+      "publication_date": "2023-09-15",
+      "date_basis": "页面 Posted by 标注 2023-09-15。",
+      "accessed_on": "2026-10-24",
+      "type": "developer_article",
+      "coverage": "核读完整正文；重点 Quality clarifications、Discovering new materials、Trigger technologies、Early game、Productivity researches。未播放内嵌视频。",
+      "evidence_locations": [
+        "Quality clarifications: optional progression and enjoyable best strategy",
+        "Discovering new materials / Trigger technologies: mining, crafting and rocket triggers",
+        "Early game: piled-up recipes and early unlock conditions"
+      ],
+      "source_claim": "作者用材料接触、制造等触发条件安排科技发现，避免提前堆积尚无法使用的配方；并说明强力升级即使名义可选，也会影响追求最优的选择。",
+      "proposed_action": "把新能力的实际接触与解锁顺序连起来；分别观察解锁、备料、开工和用途。可选成长仍要检查最佳路线是否迫使无趣重复。",
+      "limits": "2023 年开发中方案与团队自述，非当前版本操作说明或长期玩家实验。不要把尽量低的起点、材料触发或自动化当成所有类型的普遍要求。"
+    },
+    {
+      "id": "H03",
+      "title": "Friday Facts #375 - Quality",
+      "authors": [
+        "kovarex"
+      ],
+      "publisher": "Wube Software / Factorio",
+      "url": "https://www.factorio.com/blog/post/fff-375",
+      "publication_date": "2023-09-08",
+      "date_basis": "页面 Posted by 标注 2023-09-08。",
+      "accessed_on": "2026-10-24",
+      "type": "developer_article",
+      "coverage": "核读 Horizontal versus Vertical growth 至 Strategy implications 的相关正文（网页行 36–138）；不把未播放内嵌视频或后文引擎历史计为已核读证据。",
+      "evidence_locations": [
+        "Horizontal versus Vertical growth",
+        "The last piece of the puzzle: recycling and productivity loop",
+        "Strategy implications: priorities change with stage and logistics"
+      ],
+      "source_claim": "品质用于延长扩建规模与提升效率之间的选择；回收返还需与增产一起检查，早期投入过多高品质生产可能挤压整体进度。",
+      "proposed_action": "跨阶段比较投资路线，并把回收、制造、运输和消耗串成净流量模型，检查瓶颈与自我增殖。",
+      "limits": "文章里的横向增长指同类设施扩建，与 RPG 中增加不同能力的横向成长不是同一定义。具体概率、品质、返还和倍率为当时方案，不能作为其他作品或当前版本的通用参数。"
+    },
+    {
+      "id": "H04",
+      "title": "New Narrative Structures",
+      "authors": [
+        "Failbetter Games"
+      ],
+      "publisher": "Failbetter Games",
+      "url": "https://www.failbettergames.com/news/new-narrative-structures",
+      "publication_date": "2010-08-09",
+      "date_basis": "页面署名日期 August 9th, 2010。",
+      "accessed_on": "2026-10-24",
+      "type": "developer_article",
+      "coverage": "核读完整文章正文，含 Midnight Buffet、Carousel、Grandfather Clock 三种结构；未沿外链扩大阅读声明。",
+      "evidence_locations": [
+        "Midnight Buffet: multiple preparation qualities",
+        "Carousel: timing quality opens/closes content and resets",
+        "Grandfather Clock: local progress quality advances a slower narrative chain"
+      ],
+      "source_claim": "多项准备状态可以共同限定可选目标；较短的进度循环与较慢的故事阶段可以分别记录，局部重置不必等于叙事归零。",
+      "proposed_action": "为一次任务和跨章节状态分别定义更新与重置，检查局部重复是否仍带来新的行动、关系或世界后果。",
+      "limits": "开发者对叙事结构的说明，没有玩家效果数据。结构能表达重复，不代表重复积累必然有趣，也不适合强制所有短篇持续循环。"
     }
   ],
   "primary_focus": "gameplay_planning"
