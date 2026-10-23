@@ -24,7 +24,7 @@ description: 优先处理游戏玩法策划：设计玩家行动、玩法循环�
 | 创意转玩法、玩法循环、机制组合、深度与重复可玩性 | [gameplay-planning.md](references/gameplay-planning.md) |
 | 体验、选择、教学、手感或节奏出了什么问题 | [design-decisions.md](references/design-decisions.md) |
 | 生成谜题、安排教学、组织开放探索 | [level-design.md](references/level-design.md) |
-| 输入容错、动作取消、战斗信号与手感诊断 | [action-feel.md](references/action-feel.md) |
+| 输入容错、动作取消、战斗信号及卡图辨识 | [action-feel.md](references/action-feel.md) |
 | 战斗遭遇、敌人职责、空间与增援 | [combat-encounters.md](references/combat-encounters.md) |
 | 多人分工、信息交换、协商与人数变化 | [cooperative-play.md](references/cooperative-play.md) |
 | 跨章节成长、解锁用途、生产瓶颈与长期验证 | [long-term-progression.md](references/long-term-progression.md) |
