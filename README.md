@@ -1,6 +1,6 @@
 # 游戏玩法策划公开研究库
 
-更新于 2026-10-24。本库以游戏玩法策划为主，研究玩家怎样行动、选择，机制如何产生变化，以及为什么愿意继续玩。保存公开来源的短摘要、可执行方法和一个 Codex Skill；开发、测试和发布资料按任务需要使用。外部研究不自动代表个人认可。
+更新于 2026-10-25。本库以游戏玩法策划为主，研究玩家怎样行动、选择，机制如何产生变化，以及为什么愿意继续玩。保存公开来源的短摘要、可执行方法和一个 Codex Skill；开发、测试和发布资料按任务需要使用。外部研究不自动代表个人认可。
 
 ## 从这里开始
 
@@ -13,6 +13,7 @@
 | 查看本轮深化、修订及仍缺的证据 | [研究深度与边界](docs/research-depth.md) |
 | 看方法在当前项目怎样用、哪些判断被修正 | [四项目实用回收](docs/project-trials.md) |
 | 按作品学习关卡与误导设计 | [《疑案追声》策划学习包](docs/case-studies/unheard/README.md) |
+| 研究公开信息、随机应变与构筑取舍 | [《杀戮尖塔》一代设计研究](docs/case-studies/slay-the-spire/README.md) |
 | 检查原始出处与适用条件 | [来源卡](skills/game-design-development/references/sources.md) · [结构化来源表](skills/game-design-development/references/sources.json) |
 | 看一个具体设计推演 | [《雨夜送信》虚构例子](skills/game-design-development/references/worked-example.md) |
 | 审阅待验证方法 | [候选方法清单](docs/candidates.md) |
